@@ -1,5 +1,23 @@
+@font-face {
+	font-family: 'HelveticaNeueCyr-UltraLight';
+	src: url('../fonts/helveticaneuecyr-ultralight.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/helveticaneuecyr-ultralight.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/helveticaneuecyr-ultralight.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/helveticaneuecyr-ultralight.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/helveticaneuecyr-ultralight.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/helveticaneuecyr-ultralight.svg#helveticaneuecyr-ultralight') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+@font-face {
+	font-family: 'GloberSemiBoldFree';
+	src: url('../fonts/globersemiboldfree.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/globersemiboldfree.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/globersemiboldfree.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/globersemiboldfree.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/globersemiboldfree.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/globersemiboldfree.svg#globersemiboldfree') format('svg'); /* Chrome < 4, Legacy iOS */
+}
 body {
-    font-family: "Muli", sans-serif;
+    font-family: "GloberSemiBoldFree", sans-serif;
     line-height: 1.6;
     background-color: #ffffff;
     overflow-x: hidden;
