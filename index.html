@@ -5,86 +5,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>KOTTV</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="libs/slick/slick.css">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    <!-- Bootstrap -->
+    <link href="https://getbootstrap.com/docs/5.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
 </head>
 <body>
-    <div class="search-form" id="search-form">
-        <form action="">
-        <input type="search" class="form-control" placeholder="Enter keyword to search...">
-        <button class="button">
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-search" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-        <path fill-rule="evenodd" d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z" />
-        <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z" />
-        </svg>
-        </button>
-        <button class="button">
-        <div class="close-search">
-        <span class="icofont-close js-close-search"></span>
-        </div>
-        </button>
-        </form>
-        </div>
-        <div class="site-mobile-menu">
-        <div class="site-mobile-menu-header">
-        <div class="site-mobile-menu-close">
-        <span class="icofont-close js-menu-toggle"></span>
-        </div>
-        </div>
-        <div class="site-mobile-menu-body"></div>
-        </div>
-    <nav class="site-nav mb-5">
-        <div class="sticky-nav js-sticky-header">
-        <div class="container position-relative">
-        <div class="site-navigation text-center dark">
-        <img src="img/logo.svg" alt="KOTTV" class="logo menu-absolute m-0" width="120px" height="90px">
-        <ul class="js-clone-nav pl-0 d-none d-lg-inline-block site-menu text-center">
-        <li class="active"><a href="index.html">Начало</a></li>
-        <li><a href="features.html">Каталог</a></li>
-        <li><a href="pricing.html">Тарифы</a></li>
-        <li class="has-children">
-        <a href="services.html">Услуги</a>
-        <ul class="dropdown">
-        <li><a href="elements.html">Услуга 1</a></li>
-        <li><a href="#">Услуга 2</a></li>
-        <li><a href="#">Услуга 3</a></li>
-        <li><a href="#">Услуга 4</a></li>
-        <li class="has-children">
-        <a href="#">Услуга 5</a>
-        <ul class="dropdown">
-        <li><a href="#">Подуслуга 1</a></li>
-        <li><a href="#">Подуслуга 2</a></li>
-        <li><a href="#">Подуслуга 3</a></li>
-        </ul>
-        </li>
-        <li><a href="#">Услуга 6</a></li>
-        </ul>
-        </li>
-        <li><a href="about.html">О нас</a></li>
-        <li><a href="contact.html">Контакты</a></li>
-        </ul>
-        <div class="menu-icons">
-            <a class="" href="">Войти</a>
-        <a href="#" class="btn-custom-search" id="btn-search">
-        <span class="icon-search2"></span>
-        </a>
-        <a href="#">
-        <span class="icon-twitter"></span>
-        </a>
-        <a href="#">
-        <span class="icon-facebook"></span>
-        </a>
-        </div>
-        <a href="#" class="burger ml-auto float-right site-menu-toggle js-menu-toggle d-inline-block d-lg-none" data-toggle="collapse" data-target="#main-navbar">
-        <span></span>
-        </a>
-        </div>
-        </div>
-        </div>
-        </nav>
+<!-- Header -->
+    <div class="header">
+        <header class="d-flex justify-content-center py-3">
+          <ul class="nav nav-pills">
+            <li class="nav-item"><a href="index.html" class="nav-link center"><img src="/img/logo.svg" alt="KOTTV" width="90" height="60"></a></li>
+            <li class="nav-item"><a href="#" class="nav-link" aria-current="page">Главная</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Тарифы</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Каналы</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Услуги</a></li>
+            <li class="nav-item left150"><a href="#" class="nav-link">Логин</a></li>
+          </ul>
+        </header>
+      </div>
+<!-- Carousel -->
 <div class="content">
   <div class="slider single-item">
     <div>
