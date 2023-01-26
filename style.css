@@ -1467,3 +1467,12 @@ li img {
 #font {
   font-family: "GloberSemiBoldFree", sans-serif;
 }
+.slick-prev::before, .slick-next::before {
+    color: rgb(0, 0, 0);
+}
+.slick-list {
+    height: 100%;
+}
+.slick-track {
+    height: 100%;
+}
