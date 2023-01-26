@@ -8,7 +8,7 @@ $(".single-item").slick({
   slidesToScroll: 1,
   lazyLoad: 'ondemand',
   autoplay: true,
-  autoplaySpeed: 5000,
+  autoplaySpeed: 2000,
   initialSlide: 1,
   responsive: [
           {

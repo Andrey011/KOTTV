@@ -1428,8 +1428,7 @@ body {
 .content {
   margin: auto;
   padding: 30px;
-  width: 100%;
-  max-width: 600px;
+  width: 80%%;
   box-sizing: border-box;
 }
 
@@ -1475,4 +1474,31 @@ li img {
 }
 .slick-track {
     height: 100%;
+}
+.slide img {
+  display: block;
+  position: relative;
+  width: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  height: auto;
+}
+.slide-text {
+  opacity: 0;
+  text-align: center;
+  width: 100%;
+  left: 0;
+  top: 100%;
+  font-size: 14px;
+  color: #b2b2b2;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.slick-slide {
+    margin: 0 auto 23px;
+    width: auto;
+    padding-bottom: 5px;
+}
+.slick-current .slide-text {
+    opacity: 1;
 }
