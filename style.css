@@ -1514,3 +1514,36 @@ li img {
     display: flex;
     flex-direction: column;
 }
+.slide-channels {
+    display: inline-block;
+    width: 750px;
+    height: 80px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat-x;
+    animation: animatedBackground 40s linear infinite;
+}
+@keyframes animatedBackground {
+    from { background-position: 0% 0%; }
+    to { background-position: 100% 0%; }
+}
+.slider-channels {
+    white-space: nowrap;
+    margin: 10px 0;
+}
+
+.single-item-intro {
+    width: 100%;
+    height: 50%;
+    position:absolute;
+    left:0;
+    overflow-x:hidden;
+    top:275px;
+    opacity:0.4;
+    font-size:0;
+    z-index:99;
+    overflow:  hidden;
+}
+.slick-initialized .slider-channels {
+    display: block;
+}
