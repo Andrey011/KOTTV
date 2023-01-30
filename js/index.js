@@ -3,7 +3,7 @@ $(".single-item-detail").slick({
   arrows: false,
   variableWidth: true,
   centerPadding: '60px',
-  infinite: false,
+  infinite: true,
   speed: 500,
   slidesToShow: 3,
   slidesToScroll: 1,
@@ -18,7 +18,7 @@ $(".single-item").slick({
   centerMode: true,
 
   centerPadding: '60px',
-  infinite: false,
+  infinite: true,
   speed: 500,
   slidesToShow: 3,
   slidesToScroll: 1,
