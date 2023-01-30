@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2019 (64-Bit) -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="210mm" height="297mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 21000 29700"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <font id="FontID0" horiz-adv-x="666" font-variant="normal" style="fill-rule:nonzero" font-weight="400">
+	<font-face 
+		font-family="HelvLight">
+		<font-face-src>
+			<font-face-name name="HelvLight Regular"/>
+		</font-face-src>
+	</font-face>
+   <missing-glyph><path d="M0 0z"/></missing-glyph>
+   <glyph unicode="T" horiz-adv-x="555" d="M540 662l-228 0 0 -662 -68.0003 0 0 662 -228 0 0 58.0006 524 0 0 -58.0006z"/>
+   <glyph unicode="V" horiz-adv-x="610" d="M593 720l-250 -720 -75 0 -250 720 71.0003 0 217 -640.501 216 640.501 70.9994 0z"/>
+  </font>
+  <style type="text/css">
+   <![CDATA[
+    @font-face { font-family:"HelvLight";font-variant:normal;font-weight:normal;src:url("#FontID0") format(svg)}
+    .fil1 {fill:#F25CC0}
+    .fil0 {fill:url(#id0)}
+    .fnt0 {font-weight:normal;font-size:10583.33px;font-family:'HelvLight'}
+   ]]>
+  </style>
+  <linearGradient id="id0" gradientUnits="userSpaceOnUse" x1="-7.13" y1="14812.49" x2="20916.78" y2="14812.49">
+   <stop offset="0" style="stop-opacity:1; stop-color:#F25CC0"/>
+   <stop offset="1" style="stop-opacity:1; stop-color:#F25CC0"/>
+  </linearGradient>
+ </defs>
+ <g id="Слой_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <path class="fil0" d="M10492.87 4350.53c-5782.61,0 -10500,4717.39 -10500,10500 0,5782.61 4717.39,10500 10500,10500 5782.61,0 10500,-4717.39 10500,-10500 0,-5782.61 -4717.39,-10500 -10500,-10500zm0 20543.48c-5535.33,0 -10043.48,-4508.15 -10043.48,-10043.48 0,-5535.33 4508.15,-10043.48 10043.48,-10043.48 5535.33,0 10043.48,4508.15 10043.48,10043.48 0,5535.33 -4508.15,10043.48 -10043.48,10043.48z"/>
+  <text x="4328.09" y="18660.53"  class="fil1 fnt0">TV</text>
+ </g>
+</svg>

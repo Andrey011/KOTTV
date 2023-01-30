@@ -1428,8 +1428,7 @@ body {
 .content {
   margin: auto;
   padding: 30px;
-  width: 100%;
-  max-width: 600px;
+  width: 80%%;
   box-sizing: border-box;
 }
 
@@ -1466,20 +1465,4 @@ li img {
 
 #font {
   font-family: "GloberSemiBoldFree", sans-serif;
-}
-
-#purple {
-  background-color: #5259bf;
-}
-
-.container-xl {
-  width: 100%;
-  margin-left: 0px;
-  margin-right: 0px;
-}
-
-.sponsors {
-  width: 1280px;
-  height: 50px;
-  background-color: #5259bf;
 }

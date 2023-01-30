@@ -1,0 +1,36 @@
+<svg id="icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="92" height="92" viewBox="0 0 92 92">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #fff;
+        fill-rule: evenodd;
+      }
+
+      .cls-1 {
+        fill-opacity: 0;
+        stroke-linejoin: round;
+        stroke-width: 2px;
+        stroke: url(#linear-gradient);
+      }
+
+      .cls-2 {
+        filter: url(#filter);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="945" y1="4220" x2="1030.94" y2="4220" gradientUnits="userSpaceOnUse">
+      <stop  offset="0%" style="stop-color:#f25cc0"/>
+		  <stop  offset="100%" style="stop-color:#f25cc0"/>
+    </linearGradient>
+    <filter id="filter" x="966" y="4204" width="36" height="32" filterUnits="userSpaceOnUse">
+      <feImage preserveAspectRatio="none" x="966" y="4204" width="36" height="32" result="image" xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMzYiIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCAzNiAzMiI+CiAgPGRlZnM+CiAgICA8c3R5bGU+CiAgICAgIC5jbHMtMSB7CiAgICAgICAgZmlsbDogdXJsKCNsaW5lYXItZ3JhZGllbnQpOwogICAgICB9CiAgICA8L3N0eWxlPgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJsaW5lYXItZ3JhZGllbnQiIHkxPSIxNi42MjkiIHgyPSIzNiIgeTI9IjE1LjM3MSIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPgogICAgICA8c3RvcCAgb2Zmc2V0PSIwJSIgc3R5bGU9InN0b3AtY29sb3I6I2YyNWNjMCIvPgoJCSAgPHN0b3AgIG9mZnNldD0iMTAwJSIgc3R5bGU9InN0b3AtY29sb3I6I2YyNWNjMCIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+CiAgPHJlY3QgY2xhc3M9ImNscy0xIiB3aWR0aD0iMzYiIGhlaWdodD0iMzIiLz4KPC9zdmc+Cg=="/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+
+
+
+  </defs>
+  <path id="Эллипс_2_копия_8" data-name="Эллипс 2 копия 8" class="cls-1" d="M987.967,4177A43,43,0,1,1,945,4220,42.977,42.977,0,0,1,987.967,4177Z" transform="translate(-942 -4174)"/>
+  <path id="Фигура_35" data-name="Фигура 35" class="cls-2" d="M1001.23,4204.42a1.42,1.42,0,0,0-1.02-.41,1.7,1.7,0,0,0-1.071.4l-14.124,12.71v-10.98a2.4,2.4,0,0,0-.78-1.79,1.443,1.443,0,0,0-.966-0.35,1.75,1.75,0,0,0-1.116.41l-15.442,13.9a2.444,2.444,0,0,0,0,3.45l15.437,13.82,0.02,0.02a1.77,1.77,0,0,0,1.059.4,1.949,1.949,0,0,0,.978-0.32l0.026-.02a2.444,2.444,0,0,0,.783-1.8v-10.92l14.12,12.64,0.02,0.02a1.762,1.762,0,0,0,1.055.4,1.949,1.949,0,0,0,.78-0.18c0.05-.01.09-0.03,0.13-0.04l0.05-.02,0.05-.04a2.431,2.431,0,0,0,.78-1.8v-27.71A2.282,2.282,0,0,0,1001.23,4204.42Zm-1.259,2.02v27.05l-14.926-13.35-0.009-.01a0.62,0.62,0,0,1-.021-0.16,0.357,0.357,0,0,1,.041-0.19Zm-16.986,0v27.05l-14.925-13.35-0.009-.01a0.62,0.62,0,0,1-.021-0.16,0.346,0.346,0,0,1,.041-0.19Z" transform="translate(-942 -4174)"/>
+  
+</svg>
