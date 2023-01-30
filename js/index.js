@@ -111,4 +111,3 @@ $(".slider-channels").each(function () {
       $(this).find('.slide-channels').clone().appendTo(this);
     }
   });
-
