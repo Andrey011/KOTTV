@@ -1467,8 +1467,15 @@ li img {
   font-family: "GloberSemiBoldFree", sans-serif;
 }
 }
-.slick-prev::before, .slick-next::before {
-    color: rgb(0, 0, 0);
+.slick-prev:before,
+.slick-next:before
+{
+    font-family: 'slick';
+    font-size: 20px;
+    line-height: 1;
+
+    opacity: .75;
+    color: black;
 }
 .slick-list {
     height: 100%;
@@ -1514,6 +1521,9 @@ li img {
 .slick-initialized .slick-slide {
     display: flex;
     flex-direction: column;
+}
+.slick-next:before, .slick-prev:before {
+    color: black;
 }
 .slide-channels {
     display: inline-block;
