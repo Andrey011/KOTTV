@@ -1,8 +1,8 @@
 .widget{border:1px solid #e5e5e5;padding:20px 25px;box-shadow:0 1px 1px #eaeaea, inset 0 1px 0 #fbfbfb;background:#fff;}
-.widget{margin-bottom:25px;}
+.widget{margin-bottom:25px;margin-right: 3%;}
 .widget p:last-child, article p:last-child{margin-bottom:0;}
 .widget.search{background:none;padding:0;border:none;box-shadow:none;}
-.wrapper{padding:20px; width:100%; position:relative;}
+.wrapper{padding:20px; width:100%; position:relative;display: flex;justify-content: center;flex-wrap: wrap;}
 .light-wrapper{background:#f8f4ff !important;}
 .dark-wrapper{background:#333743 !important;}
 
