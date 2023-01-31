@@ -1529,6 +1529,7 @@ li img {
     display: inline-block;
     width: 750px;
     height: 80px;
+
     background-position: center;
     background-size: cover;
     background-repeat: repeat-x;
@@ -1553,7 +1554,7 @@ li img {
     top:275px;
     opacity:0.4;
     font-size:0;
-    z-index:99;
+    z-index:-2;
     overflow:  hidden;
 }
 .slick-initialized .slider-channels {
@@ -1568,7 +1569,7 @@ li img {
     top:275px;
     opacity:0.4;
     font-size:0;
-    z-index:99;
+    z-index:-1;
     overflow:  hidden;
 }
 @keyframes animatedBackground {
