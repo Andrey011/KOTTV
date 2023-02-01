@@ -98,3 +98,32 @@
 	color: #bd5a35;
 	text-decoration:underline;
 }
+.slide-text {
+  opacity: 0;
+  text-align: center;
+  width: 100%;
+  left: 0;
+  top: 100%;
+  font-size: 14px;
+  color: #b2b2b2;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.slick-slide {
+    overflow-x:hidden;
+    opacity: 0;
+}
+.slick-active {
+    overflow-x:hidden;
+    opacity: 1;
+}
+
+.slide img {
+  display: block;
+  position: relative;
+  height: 100%;
+}
+.imgtv {
+    display:flex;
+    flex-wrap: wrap;
+}

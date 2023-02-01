@@ -87,3 +87,48 @@ $(".slider-channels").each(function () {
       $(this).find('.slide-channels').clone().appendTo(this);
     }
   });
+  $(".slider-with-channels").slick({
+  arrows: false,
+  centerPadding: '60px',
+  speed: 500,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  lazyLoad: 'ondemand',
+  initialSlide: 0,
+  asNavFor: ".slider-of-tariffs"
+})
+$(".slider-of-tariffs").slick({
+  dots: false,
+  arrows:true,
+  centerMode: false,
+  centerPadding: '60px',
+  speed: 500,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  lazyLoad: 'ondemand',
+  initialSlide: 0,
+  asNavFor: ".slider-with-channels",
+  responsive: [
+          {
+              breakpoint: 768,
+              settings: {
+                  arrows: true,
+                  dots: true,
+                  infinite: false,
+                  centerMode: true,
+                  centerPadding: '40px',
+                  slidesToShow: 3
+              }
+          },
+          {
+          breakpoint: 480,
+          settings: {
+                  arrows: true,
+                  dots: true,
+                  centerMode: true,
+                  centerPadding: '40px',
+                  slidesToShow: 1
+              }
+          }
+      ]
+});
