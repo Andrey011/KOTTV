@@ -1606,3 +1606,18 @@ to { background-position: 100% 0; }
 #left80 {
   left: 80%!important;
 }
+
+.footer__payment-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.footer__payment-info img.payment-type {
+  max-height: 40px;
+  width: auto;
+  margin: 10px;
+}
