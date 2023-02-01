@@ -1491,6 +1491,11 @@ li img {
   transform: translateX(-50%);
   height: 100%;
 }
+@media (max-width: 2560px) {
+    .slide img {
+        width: 30%;
+    }
+}
 .slide-text {
   opacity: 0;
   text-align: center;

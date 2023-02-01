@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="style.css">
     <!-- Bootstrap -->
     <link href="https://getbootstrap.com/docs/5.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 </head>
 <body>
 <!-- Header -->
@@ -27,6 +27,28 @@
           </ul>
         </header>
       </div>
+<!-- HTML-код кнопки (триггер модального окна)-->
+<a href="#myModal" class="btn btn-lg btn-primary" data-toggle="modal">Запустить модальное окно</a>
+
+<!-- HTML-код модального окна -->
+<div id="myModal" class="modal" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Подтверждение</h5>
+                <button type="button" class="close" data-dismiss="modal">×</button>
+            </div>
+            <div class="modal-body">
+                <p>Вы хотите сохранить изменения в этом документе перед закрытием?</p>
+                <p class="text-secondary"><small>Если вы не сохраните, ваши изменения будут потеряны.</small></p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрыть</button>
+                <button type="button" class="btn btn-primary">Сохранить изменения</button>
+            </div>
+        </div>
+    </div>
+</div>
         <!-- Временный Разделитель -->   <div class="b-example-divider"></div>  <!-- Временный Разделитель -->
 <!-- Hero -->
 <div class="container col-xxl-8 px-4 py-5">
@@ -167,6 +189,8 @@
  <script src="libs/jquery/jquery-3.3.1.min.js" type="text/javascript"></script>
  <script src="libs/slick/slick.min.js" type="text/javascript"></script>
  <script src="js/index.js" type="text/javascript"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+ <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </html>
         <!-- Временный Разделитель -->   <div class="b-example-divider"></div>  <!-- Временный Разделитель -->
 <!-- 30 Free Days -->
