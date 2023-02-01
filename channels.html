@@ -8,7 +8,7 @@
     <title>KOTTV-Channels</title>
     <link rel="stylesheet" href="libs/slick/slick.css">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
-    <link rel="stylesheet" href="style.css">
+<!--    <link rel="stylesheet" href="style.css">-->
     <link rel="stylesheet" href="channels.css">
     <!-- Bootstrap -->
     <link href="https://getbootstrap.com/docs/5.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -24,427 +24,618 @@
             <li class="nav-item"><a href="tariffs.html" class="nav-link">Тарифы</a></li>
             <li class="nav-item"><a href="channels.html" class="nav-link">Каналы</a></li>
             <li class="nav-item"><a href="services.html" class="nav-link">Услуги</a></li>
-            <li class="nav-item position-relative top-50 start-100 translate-middle"><a href="#" class="nav-link">Логин</a></li>
+            <li class="nav-item position-relative top-50 start-100 translate-middle" id="left80"><a href="#myModal"
+            class="btn btn-lg btn-primary" data-toggle="modal" class="nav-link">Войти</a></li>
           </ul>
         </header>
       </div>
+<!-- HTML-код модального окна -->
+  <div id="myModal" class="modal" tabindex="-1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <!-- Login Form -->
+        <form action="">
+          <div class="modal-header">
+            <h5 class="modal-title">Авторизация</h5>
+            <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="mb-3">
+              <label for="Username">Номер телефона<span class="text"></span></label>
+              <input type="tel" name="username" class="form-control" id="Username" placeholder="+375 (99) 999-99-99"
+                pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+            </div>
+            <div class="mb-3">
+            </div>
+          </div>
+          <div class="modal-footer pt-4">
+            <button type="button" class="btn btn-outline-primary mx-auto w-100">Получить код!</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
 <section class="dark-wrapper">
+<div class="wrapper">
+    <div class="slider slider-of-tariffs border">
+        <div class="slide slide-text">
+            light
+        </div>
+        <div class="slide slide-text">
+            smart
+        </div>
+        <div class="slide slide-text">
+            ultra
+        </div>
+    </div>
+    <div class="slider slider-with-channels">
+        <div class="slide">
+    <table class=" simple-little-table" cellspacing='0' width="100%">
+        <tr>
+            <td><b>Общедоступные</b></td>
+            <td class="imgtv">
 
-		<div class="wrapper">
-            <table class="simple-little-table" cellspacing='0' width="100%">
-<tr>
-<td><img src="img/imgtv/belarus1.png"></img></td>
-<td><b>Беларусь 1</b></td>
-<td>HD</td>
-</tr>
-<tr>
-<td><img src="img/imgtv/ont.png"></img></td>
-<td><b>ОНТ</b></td>
-<td>HD</td>
-</tr>
-<tr>
-<td><img src="img/imgtv/stvhd.png"></img></td>
-<td><b>СТВ</b></td>
-<td>HD</td>
-</tr>
-<tr>
-<td><img src="img/imgtv/mir.png"></img></td>
-<td><b>Мир</b></td>
-<td>HD</td>
-</tr>
-<tr>
-<td><img src="img/imgtv/rtr_belarus.png"></img></td>
-<td><b>РТР Беларусь</b></td>
-<td>HD</td>
-</tr>
-<tr>
-<td><img src="img/imgtv/ntv_belarus.png"></img></td>
-<td><b>НТВ Беларусь</b></td>
-<td>HD</td>
-</tr>
-<tr>
-<td><img src="img/imgtv/belarus2.png"></img></td>
-<td><b>Беларусь 2</b></td>
-<td>HD</td>
-</tr>
-<tr>
-<td><img src="img/imgtv/belarus3.png"></img></td>
-<td><b>Беларусь 3</b></td>
-<td>HD</td>
-</tr>
-<tr>
-<td><img src="img/imgtv/belarus5.png"></img></td>
-<td><b>Беларусь 5</b></td>
-<td>HD</td>
-</tr>
-<tr>
-<td><img src="img/imgtv/5int.png"></img></td>
-<td><b>5 International</b></td>
-<td>SD</td>
-</tr>
-<tr>
-<td><img src="img/imgtv/joy_cook.png"></img></td>
-<td><b>Joy Cook</b></td>
-<td>SD</td>
-</tr>
-<tr>
-<td><img src="img/imgtv/kvn.png"></img></td>
-<td><b>КВН</b></td>
-<td>SD</td>
-</tr>
-<tr>
-<td><img src="img/imgtv/kuhnia.png"></img></td>
-<td><b>Кухня ТВ</b></td>
-<td>SD</td>
-</tr>
-<tr>
-<td><img src="img/imgtv/anekdot.png"></img></td>
-<td><b>Анекдот ТВ</b></td>
-<td>SD</td>
-</tr>
-<tr>
-<td><img src="img/imgtv/duck.png"></img></td>
-<td><b>Duck TV</b></td>
-<td>HD</td>
-</tr>
-<tr>
-<td><img src="img/imgtv/sovmult.png"></img></td>
-<td><b>Советские мультфильмы</b></td>
-<td>SD</td>
-</tr>
-<tr>
-<td><img src="img/imgtv/skazki.png"></img></td>
-<td><b>Сказки зайки</b></td>
-<td>SD</td>
-</tr>
-<tr>
-<td><img src="img/imgtv/cartoon.png"></img></td>
-<td><b>Cartoon Network</b></td>
-<td>SD</td>
-</tr>
-<tr>
-<td><img src="img/imgtv/ryzhiy.png"></img></td>
-<td><b>Рыжий</b></td>
-<td>SD</td>
-</tr>
-<tr>
-<td><img src="img/imgtv/cap-fan.png"></img></td>
-<td><b>Капитан фантастика</b></td>
-<td>HD</td>
-</tr>
-<tr>
-<td><img src="img/imgtv/mult.png"></img></td>
-<td><b>Мульт</b></td>
-<td>HD</td>
-</tr>
-<tr>
-<td><img src="img/imgtv/stskids.png"></img></td>
-<td><b>СТС kids</b></td>
-<td>SD</td>
-</tr>
-<tr>
-<td><img src="img/imgtv/vgostiah.png"></img></td>
-<td><b>В гостях у сказки</b></td>
-<td>SD</td>
-</tr>
-<tr>
-<td><img src="img/imgtv/smile.png"></img></td>
-<td><b>Смайлик ТВ</b></td>
-<td>SD</td>
-</tr>
-<tr>
-<td><img src="img/imgtv/trash.png"></img></td>
-<td><b>Trash</b></td>
-<td>HD</td>
-</tr>
-<tr>
-<td><img src="img/imgtv/ntv_serial.png"></img></td>
-<td><b>НТВ Сериал</b></td>
-<td>SD</td>
-</tr>
-<tr>
-<td><img src="img/imgtv/amedia1.png"></img></td>
-<td><b>Amedia 1</b></td>
-<td>HD</td>
-</tr>
-<tr>
-<td><img src="img/imgtv/amedia2.png"></img></td>
-<td><b>Amedia 2</b></td>
-<td>HD</td>
-</tr>
-<tr>
-<td><img src="img/imgtv/amedia_hit.png"></img></td>
-<td><b>Amedia Hit</b></td>
-<td>HD</td>
-</tr>
-<tr>
-<td><img src="img/imgtv/amedia_premium.png"></img></td>
-<td><b>Amedia Premium</b></td>
-<td>HD</td>
-</tr>
-<tr>
-<td><img src="img/imgtv/muzhskoe_kino.png"></img></td>
-<td><b>Мужское кино</b></td>
-<td>HD</td>
-</tr>
-<tr>
-<td><img src="img/imgtv/domkino_premium.png"></img></td>
-<td><b>Дом кино Премиум</b></td>
-<td>HD</td>
-</tr>
-<tr>
-<td><img src="img/imgtv/nstv.png"></img></td>
-<td><b>НСТ</b></td>
-<td>SD</td>
-</tr>
-<tr>
-<td><img src="img/imgtv/illusion.png"></img></td>
-<td><b>Иллюзион +</b></td>
-<td>SD</td>
-</tr>
-<tr>
-<td><img src="img/imgtv/eurokino.png"></img></td>
-<td><b>Еврокино</b></td>
-<td>SD</td>
-</tr>
-<tr>
-<td><img src="img/imgtv/cinema.png"></img></td>
-<td><b>Cinema</b></td>
-<td>SD</td>
-</tr>
-<tr>
-<td><img src="img/imgtv/kinosat.png"></img></td>
-<td><b>Киноман</b></td>
-<td>SD</td>
-</tr>
-<tr>
-<td><img src="img/imgtv/red.png"></img></td>
-<td><b>.red</b></td>
-<td>HD</td>
-</tr>
-<tr>
-<td><img src="img/imgtv/dizi.png"></img></td>
-<td><b>Timeless Dizi Channel</b></td>
-<td>HD</td>
-</tr>
-<tr>
-<td><img src="img/imgtv/jivi.png"></img></td>
-<td><b>Живи!</b></td>
-<td>HD</td>
-</tr>
-<tr>
-<td><img src="img/imgtv/rodnoe_kino.png"></img></td>
-<td><b>Родное кино</b></td>
-<td>SD</td>
-</tr>
-<tr>
-<td><img src="img/imgtv/sovkino.png"></img></td>
-<td><b>Советское кино</b></td>
-<td>SD</td>
-</tr>
-<tr>
-<td><img src="img/imgtv/klassic_kino.png"></img></td>
-<td><b>Классика кино</b></td>
-<td>SD</td>
-</tr>
-<tr>
-<td><img src="img/imgtv/dorama.png"></img></td>
-<td><b>Дорама</b></td>
-<td>SD</td>
-</tr>
-<tr>
-<td><img src="img/imgtv/black.png"></img></td>
-<td><b>.black</b></td>
-<td>SD</td>
-</tr>
-<tr>
-<td><img src="img/imgtv/extreme.png"></img></td>
-<td><b>Extreme Sports</b></td>
-<td>SD</td>
-</tr>
-<tr>
-<td><img src="img/imgtv/boks.png"></img></td>
-<td><b>Бокс ТВ</b></td>
-<td>SD</td>
-</tr>
-<tr>
-<td><img src="img/imgtv/match_planeta.png"></img></td>
-<td><b>МАТЧ! ПЛАНЕТА</b></td>
-<td>SD</td>
-</tr>
+                <img src="img/imgtv/belarus1.png">
+                <img src="img/imgtv/ont.png">
+                <img src="img/imgtv/stvhd.png">
+                <img src="img/imgtv/mir.png">
+                <img src="img/imgtv/rtr_belarus.png">
+                <img src="img/imgtv/ntv_belarus.png">
+                <img src="img/imgtv/belarus2.png">
+                <img src="img/imgtv/belarus3.png">
+                <img src="img/imgtv/belarus5.png">
+            </td>
+        </tr>
+        <tr>
+            <td><b>Фильмы/Сериалы</b></td>
+            <td class="imgtv">
+                <img src="img/imgtv/amedia1.png">
+                <img src="img/imgtv/amedia2.png">
+                <img src="img/imgtv/amedia_hit.png">
+                <img src="img/imgtv/amedia_premium.png">
+                <img src="img/imgtv/hollywood.png">
+                <img src="img/imgtv/hollywoodhd.png">
+                <img src="img/imgtv/filmuadrama.png">
+                <img src="img/imgtv/domkino.png">
+                <img src="img/imgtv/domkino_premium.png">
+                <img src="img/imgtv/dorama.png">
+                <img src="img/imgtv/kinohit.png">
+                <img src="img/imgtv/kinoseria.png">
+                <img src="img/imgtv/kinokomedia.png">
+                <img src="img/imgtv/kinomix.png">
+                <img src="img/imgtv/kinosvidanie.png">
+                <img src="img/imgtv/kinofamily.png">
+                <img src="img/imgtv/kinopremera.png">
+                <img src="img/imgtv/indikino.png">
+                <img src="img/imgtv/nashe_novoe_kino.png">
+                <img src="img/imgtv/nstv.png">
+                <img src="img/imgtv/eurokino.png">
+                <img src="img/imgtv/sci-fi.png">
+                <img src="img/imgtv/muzhskoe_kino.png">
+                <img src="img/imgtv/kinosat.png">
+                <img src="img/imgtv/red.png">
+                <img src="img/imgtv/rodnoe_kino.png">
+                <img src="img/imgtv/illusion.png">
+                <img src="img/imgtv/russki_illuzion.png">
+                <img src="img/imgtv/fenix.png">
+                <img src="img/imgtv/cinema.png">
+                <img src="img/imgtv/tv3.png">
+                <img src="img/imgtv/sovkino.png">
+                <img src="img/imgtv/klassic_kino.png">
+                <img src="img/imgtv/black.png">
+                <img src="img/imgtv/ntv_pravo.png">
+                <img src="img/imgtv/ntv_serial.png">
+                <img src="img/imgtv/ntv_style.png">
+                <img src="img/imgtv/domashni.png">
+                <img src="img/imgtv/lubimoe_kino.png">
+                <img src="img/imgtv/trash.png">
+                <img src="img/imgtv/dizi.png">
+            </td>
+        </tr>
+        <tr>
+            <td><b>Развлекательное</b></td>
+            <td class="imgtv">
+                <img src="img/imgtv/vtv.png">
+                <img src="img/imgtv/tnt_int.png">
+                <img src="img/imgtv/perec.png">
+                <img src="img/imgtv/telecafe.png">
+                <img src="img/imgtv/kuhnia.png">
+                <img src="img/imgtv/kvn.png">
+                <img src="img/imgtv/anekdot.png">
+                <img src="img/imgtv/5int.png">
+                <img src="img/imgtv/sarafan.png">
+                <img src="img/imgtv/jivi.png">
+            </td>
+        </tr>
+        <tr>
+            <td><b>Детские</b></td>
+            <td class="imgtv">
+                <img src="img/imgtv/cap-fan.png">
+                <img src="img/imgtv/ryzhiy.png">
+                <img src="img/imgtv/unikum.png">
+                <img src="img/imgtv/karusel.png">
+                <img src="img/imgtv/stskids.png">
+                <img src="img/imgtv/vgostiah.png">
+                <img src="img/imgtv/mult.png">
+                <img src="img/imgtv/duck.png">
+                <img src="img/imgtv/sovmult.png">
+                <img src="img/imgtv/smile.png">
+                <img src="img/imgtv/2x2.png">
+                <img src="img/imgtv/o.png">
+            </td>
+        </tr>
+        <tr>
+            <td><b>Спортивные</b></td>
+            <td class="imgtv">
+                <img src="img/imgtv/boks.png">
+                <img src="img/imgtv/match_planeta.png">
+                <img src="img/imgtv/es1.png">
+                <img src="img/imgtv/es2.png">
+                <img src="img/imgtv/khlhd.png">
+                <img src="img/imgtv/vtv.png">
+                <img src="img/imgtv/futbol.png">
+                <img src="img/imgtv/setanta_sports_1.png">
+                <img src="img/imgtv/setanta_sports_2.png">
+                <img src="img/imgtv/extreme.png">
+            </td>
+        </tr>
+        <tr>
+            <td><b>Познавательные</b></td>
+            <td class="imgtv">
+                <img src="img/imgtv/discovery_channel.png">
+                <img src="img/imgtv/discovery_science.png">
+                <img src="img/imgtv/id.png">
+                <img src="img/imgtv/animal_planet.png">
+                <img src="img/imgtv/history.png">
+                <img src="img/imgtv/history2.png">
+                <img src="img/imgtv/wf.png">
+                <img src="img/imgtv/hdl.png">
+                <img src="img/imgtv/1cosmo.png">
+                <img src="img/imgtv/vmire.png">
+                <img src="img/imgtv/zoo.png">
+                <img src="img/imgtv/ktoestkto.png">
+                <img src="img/imgtv/galaxy.png">
+                <img src="img/imgtv/365.png">
+                <img src="img/imgtv/zagorodnaya.png">
+                <img src="img/imgtv/autoplus.png">
+                <img src="img/imgtv/dikiy.png">
+                <img src="img/imgtv/dikaya_oxota.png">
+                <img src="img/imgtv/dikaya_rybalka.png">
+                <img src="img/imgtv/muzhskoi.png">
+                <img src="img/imgtv/orugie.png">
+                <img src="img/imgtv/teatr.png">
+                <img src="img/imgtv/souz.png">
+                <img src="img/imgtv/mussouz.png">
+                <img src="img/imgtv/oxotnik.png">
+                <img src="img/imgtv/zhivaya_priroda.png">
+                <img src="img/imgtv/glazami_turista.png">
+                <img src="img/imgtv/unknown_planet.png">
+                <img src="img/imgtv/arsenal.png">
+                <img src="img/imgtv/poexali.png">
+                <img src="img/imgtv/docu-box.png">
+                <img src="img/imgtv/bober.png">
+            </td>
+        </tr>
+        <tr>
+            <td><b>Информационные</b></td>
+            <td class="imgtv">
+                <img src="img/imgtv/vremia.png">
+                <img src="img/imgtv/mir24.png">
+                <img src="img/imgtv/nostalgia.png">
+                <img src="img/imgtv/8kanal.png">
+                <img src="img/imgtv/kazakh.png">
+                <img src="img/imgtv/domatv.png">
+                <img src="img/imgtv/skif.png">
+                <img src="img/imgtv/svetloe_tv.png">
+                <img src="img/imgtv/tv2mogilev.png">
+            </td>
+        </tr>
+        <tr>
+            <td><b>Музыкальные</b></td>
+            <td class="imgtv">
+                <img src="img/imgtv/rutv.png">
+                <img src="img/imgtv/music_pervogo.png">
+                <img src="img/imgtv/tnt_music.png">
+                <img src="img/imgtv/laminor.png">
+                <img src="img/imgtv/europe_plus.png">
+                <img src="img/imgtv/zhara.png">
+                <img src="img/imgtv/1_muz_hd.png">
+                <img src="img/imgtv/360_tune_box.png">
+                <img src="img/imgtv/live_music_channel_hd.png">
+                <img src="img/imgtv/belmustv.png">
+            </td>
+        </tr>
+        <tr>
+            <td><b>4k | UltraHD</b></td>
+            <td class="imgtv">
+                <img src="img/imgtv/home4k.png">
+                <img src="img/imgtv/ultra4k_extreme.png">
+                <img src="img/imgtv/funbox_uhd.png">
+            </td>
+        </tr>
+    </table>
+        </div>
+        <div class="slide">
+            <table class=" simple-little-table" cellspacing='0' width="100%">
+        <tr>
+            <td><b>Общедоступные</b></td>
+            <td>
 
-<!--
-<tr>
-<td><img src="img/imgtv/motor.png"></img></td>
-<td><b>Моторспорт ТВ</b></td>
-<td>SD</td>
-</tr>
--->
+                <img src="img/imgtv/belarus1.png">
+                <img src="img/imgtv/ont.png">
+                <img src="img/imgtv/stvhd.png">
+                <img src="img/imgtv/mir.png">
+                <img src="img/imgtv/rtr_belarus.png">
+                <img src="img/imgtv/ntv_belarus.png">
+                <img src="img/imgtv/belarus2.png">
+                <img src="img/imgtv/belarus3.png">
+                <img src="img/imgtv/belarus5.png">
+            </td>
+        </tr>
+        <tr>
+            <td><b>Фильмы/Сериалы</b></td>
+            <td>
+                <img src="img/imgtv/amedia1.png">
+                <img src="img/imgtv/amedia2.png">
+                <img src="img/imgtv/amedia_hit.png">
+                <img src="img/imgtv/amedia_premium.png">
+                <img src="img/imgtv/hollywood.png">
+                <img src="img/imgtv/hollywoodhd.png">
+                <img src="img/imgtv/filmuadrama.png">
+                <img src="img/imgtv/domkino.png">
+                <img src="img/imgtv/domkino_premium.png">
+                <img src="img/imgtv/dorama.png">
+                <img src="img/imgtv/kinohit.png">
+                <img src="img/imgtv/kinoseria.png">
+                <img src="img/imgtv/kinokomedia.png">
+                <img src="img/imgtv/kinomix.png">
+                <img src="img/imgtv/kinosvidanie.png">
+                <img src="img/imgtv/kinofamily.png">
+                <img src="img/imgtv/kinopremera.png">
+                <img src="img/imgtv/indikino.png">
+                <img src="img/imgtv/nashe_novoe_kino.png">
+                <img src="img/imgtv/nstv.png">
+                <img src="img/imgtv/eurokino.png">
+                <img src="img/imgtv/sci-fi.png">
+                <img src="img/imgtv/muzhskoe_kino.png">
+                <img src="img/imgtv/kinosat.png">
+                <img src="img/imgtv/red.png">
+                <img src="img/imgtv/rodnoe_kino.png">
+                <img src="img/imgtv/illusion.png">
+                <img src="img/imgtv/russki_illuzion.png">
+                <img src="img/imgtv/fenix.png">
+                <img src="img/imgtv/cinema.png">
+                <img src="img/imgtv/tv3.png">
+                <img src="img/imgtv/sovkino.png">
+                <img src="img/imgtv/klassic_kino.png">
+                <img src="img/imgtv/black.png">
+                <img src="img/imgtv/ntv_pravo.png">
+                <img src="img/imgtv/ntv_serial.png">
+                <img src="img/imgtv/ntv_style.png">
+                <img src="img/imgtv/domashni.png">
+                <img src="img/imgtv/lubimoe_kino.png">
+                <img src="img/imgtv/trash.png">
+                <img src="img/imgtv/dizi.png">
+            </td>
+        </tr>
+        <tr>
+            <td><b>Развлекательное</b></td>
+            <td>
+                <img src="img/imgtv/vtv.png">
+                <img src="img/imgtv/tnt_int.png">
+                <img src="img/imgtv/perec.png">
+                <img src="img/imgtv/telecafe.png">
+                <img src="img/imgtv/kuhnia.png">
+                <img src="img/imgtv/kvn.png">
+                <img src="img/imgtv/anekdot.png">
+                <img src="img/imgtv/5int.png">
+                <img src="img/imgtv/sarafan.png">
+                <img src="img/imgtv/jivi.png">
+            </td>
+        </tr>
+        <tr>
+            <td><b>Детские</b></td>
+            <td>
+                <img src="img/imgtv/cap-fan.png">
+                <img src="img/imgtv/ryzhiy.png">
+                <img src="img/imgtv/unikum.png">
+                <img src="img/imgtv/karusel.png">
+                <img src="img/imgtv/stskids.png">
+                <img src="img/imgtv/vgostiah.png">
+                <img src="img/imgtv/mult.png">
+                <img src="img/imgtv/duck.png">
+                <img src="img/imgtv/sovmult.png">
+                <img src="img/imgtv/smile.png">
+                <img src="img/imgtv/2x2.png">
+                <img src="img/imgtv/o.png">
+            </td>
+        </tr>
+        <tr>
+            <td><b>Спортивные</b></td>
+            <td>
+                <img src="img/imgtv/boks.png">
+                <img src="img/imgtv/match_planeta.png">
+                <img src="img/imgtv/es1.png">
+                <img src="img/imgtv/es2.png">
+                <img src="img/imgtv/khlhd.png">
+                <img src="img/imgtv/vtv.png">
+                <img src="img/imgtv/futbol.png">
+                <img src="img/imgtv/setanta_sports_1.png">
+                <img src="img/imgtv/setanta_sports_2.png">
+                <img src="img/imgtv/extreme.png">
+            </td>
+        </tr>
+        <tr>
+            <td><b>Познавательные</b></td>
+            <td>
+                <img src="img/imgtv/discovery_channel.png">
+                <img src="img/imgtv/discovery_science.png">
+                <img src="img/imgtv/id.png">
+                <img src="img/imgtv/animal_planet.png">
+                <img src="img/imgtv/history.png">
+                <img src="img/imgtv/history2.png">
+                <img src="img/imgtv/wf.png">
+                <img src="img/imgtv/hdl.png">
+                <img src="img/imgtv/1cosmo.png">
+                <img src="img/imgtv/vmire.png">
+                <img src="img/imgtv/zoo.png">
+                <img src="img/imgtv/ktoestkto.png">
+                <img src="img/imgtv/galaxy.png">
+                <img src="img/imgtv/365.png">
+                <img src="img/imgtv/zagorodnaya.png">
+                <img src="img/imgtv/autoplus.png">
+                <img src="img/imgtv/dikiy.png">
+                <img src="img/imgtv/dikaya_oxota.png">
+                <img src="img/imgtv/dikaya_rybalka.png">
+                <img src="img/imgtv/muzhskoi.png">
+                <img src="img/imgtv/orugie.png">
+                <img src="img/imgtv/teatr.png">
+                <img src="img/imgtv/souz.png">
+                <img src="img/imgtv/mussouz.png">
+                <img src="img/imgtv/oxotnik.png">
+                <img src="img/imgtv/zhivaya_priroda.png">
+                <img src="img/imgtv/glazami_turista.png">
+                <img src="img/imgtv/unknown_planet.png">
+                <img src="img/imgtv/arsenal.png">
+                <img src="img/imgtv/poexali.png">
+                <img src="img/imgtv/docu-box.png">
+                <img src="img/imgtv/bober.png">
+            </td>
+        </tr>
+        <tr>
+            <td><b>Информационные</b></td>
+            <td>
+                <img src="img/imgtv/vremia.png">
+                <img src="img/imgtv/mir24.png">
+                <img src="img/imgtv/nostalgia.png">
+                <img src="img/imgtv/8kanal.png">
+                <img src="img/imgtv/kazakh.png">
+                <img src="img/imgtv/domatv.png">
+                <img src="img/imgtv/skif.png">
+                <img src="img/imgtv/svetloe_tv.png">
+                <img src="img/imgtv/tv2mogilev.png">
+            </td>
+        </tr>
+        <tr>
+            <td><b>Музыкальные</b></td>
+            <td>
+                <img src="img/imgtv/rutv.png">
+                <img src="img/imgtv/music_pervogo.png">
+                <img src="img/imgtv/tnt_music.png">
+                <img src="img/imgtv/laminor.png">
+                <img src="img/imgtv/europe_plus.png">
+                <img src="img/imgtv/zhara.png">
+                <img src="img/imgtv/1_muz_hd.png">
+                <img src="img/imgtv/360_tune_box.png">
+                <img src="img/imgtv/live_music_channel_hd.png">
+                <img src="img/imgtv/belmustv.png">
+            </td>
+        </tr>
+        <tr>
+            <td><b>4k | UltraHD</b></td>
+            <td>
+                <img src="img/imgtv/home4k.png">
+                <img src="img/imgtv/ultra4k_extreme.png">
+                <img src="img/imgtv/funbox_uhd.png">
+            </td>
+        </tr>
+    </table>
+        </div>
+        <div class="slide">
+            <table class=" simple-little-table" cellspacing='0' width="100%">
+        <tr>
+            <td><b>Общедоступные</b></td>
+            <td>
 
-<tr>
-<td><img src="img/imgtv/es1.png"></img></td>
-<td><b>Eurosport 1</b></td>
-<td>SD</td>
-</tr>
-<tr>
-<td><img src="img/imgtv/es2.png"></img></td>
-<td><b>Eurosport 2</b></td>
-<td>SD</td>
-</tr>
-<tr>
-<td><img src="img/imgtv/khl.png"></img></td>
-<td><b>КХЛ</b></td>
-<td>HD</td>
-</tr>
-<tr>
-<td><img src="img/imgtv/unknown_planet.png"></img></td>
-<td><b>Неизвестная планета</b></td>
-<td>SD</td>
-</tr>
-<tr>
-<td><img src="img/imgtv/zagorodnaya.png"></img></td>
-<td><b>Загородная жизнь</b></td>
-<td>SD</td>
-</tr>
-<tr>
-<td><img src="img/imgtv/teatr.png"></img></td>
-<td><b>Театр</b></td>
-<td>SD</td>
-</tr>
-<tr>
-<td><img src="img/imgtv/history2.png"></img></td>
-<td><b>History 2</b></td>
-<td>HD</td>
-</tr>
-<tr>
-<td><img src="img/imgtv/discovery.png"></img></td>
-<td><b>Discovery Channel</b></td>
-<td>SD</td>
-</tr>
-<tr>
-<td><img src="img/imgtv/sci.png"></img></td>
-<td><b>Discovery Science</b></td>
-<td>HD</td>
-</tr>
-<tr>
-<td><img src="img/imgtv/arsenal.png"></img></td>
-<td><b>Арсенал</b></td>
-<td>HD</td>
-</tr>
-<tr>
-<td><img src="img/imgtv/poexali.png"></img></td>
-<td><b>Поехали!</b></td>
-<td>SD</td>
-</tr>
-<tr>
-<td><img src="img/imgtv/docu-box.png"></img></td>
-<td><b>Docu Box</b></td>
-<td>HD</td>
-</tr>
-<tr>
-<td><img src="img/imgtv/id.png"></img></td>
-<td><b>ID</b></td>
-<td>HD</td>
-</tr>
-<tr>
-<td><img src="img/imgtv/ntv_pravo.png"></img></td>
-<td><b>НТВ Право</b></td>
-<td>SD</td>
-</tr>
-<tr>
-<td><img src="img/imgtv/ntv_style.png"></img></td>
-<td><b>НТВ Стиль</b></td>
-<td>SD</td>
-</tr>
-<tr>
-<td><img src="img/imgtv/animal_planet.png"></img></td>
-<td><b>Animal Planet</b></td>
-<td>HD</td>
-</tr>
-<tr>
-<td><img src="img/imgtv/autoplus.png"></img></td>
-<td><b>Авто Плюс</b></td>
-<td>SD</td>
-</tr>
-<tr>
-<td><img src="img/imgtv/oxotnik.png"></img></td>
-<td><b>Охотник и Рыболов</b></td>
-<td>HD</td>
-</tr>
-<tr>
-<td><img src="img/imgtv/dikiy.png"></img></td>
-<td><b>Дикий</b></td>
-<td>SD</td>
-</tr>
-<tr>
-<td><img src="img/imgtv/dikaya_oxota.png"></img></td>
-<td><b>Дикая охота</b></td>
-<td>HD</td>
-</tr>
-<tr>
-<td><img src="img/imgtv/dikaya_rybalka.png"></img></td>
-<td><b>Дикая рыбалка</b></td>
-<td>HD</td>
-</tr>
-<tr>
-<td><img src="img/imgtv/muzhskoi.png"></img></td>
-<td><b>Мужской</b></td>
-<td>SD</td>
-</tr>
-<tr>
-<td><img src="img/imgtv/wf.png"></img></td>
-<td><b>World Fashion Int</b></td>
-<td>HD</td>
-</tr>
-<tr>
-<td><img src="img/imgtv/tv2mogilev.png"></img></td>
-<td><b>ТВ2 Могилёв</b></td>
-<td>SD</td>
-</tr>
-<tr>
-<td><img src="img/imgtv/domatv.png"></img></td>
-<td><b>Дома ТВ</b></td>
-<td>HD</td>
-</tr>
-<tr>
-<td><img src="img/imgtv/russian_music_box.png"></img></td>
-<td><b>360 Tune Box</b></td>
-<td>HD</td>
-</tr>
-<tr>
-<td><img src="img/imgtv/1_muz_hd.png"></img></td>
-<td><b>Первый музыкальный</b></td>
-<td>HD</td>
-</tr>
-<tr>
-<td><img src="img/imgtv/funbox_uhd.png"></img></td>
-<td><b>Funbox</b></td>
-<td><b>UHD/4K</b></td>
-</tr>
-<tr>
-<td><img src="img/imgtv/blue_hustler.png"></img></td>
-<td><b>Blue Hustler</b> (18+)*</td>
-<td>SD</td>
-</tr>
-<tr>
-<td><img src="img/imgtv/erox.png"></img></td>
-<td><b>Erox HD</b> (18+)*</td>
-<td>HD</td>
-</tr>
-<tr>
-<td><img src="img/imgtv/russkaja_noch.png"></img></td>
-<td><b>Русская ночь</b> (18+)*</td>
-<td>SD</td>
-</tr>
-<tr>
-<td><img src="img/imgtv/penthouse.png"></img></td>
-<td><b>Penthouse Passion HD</b> (18+)*</td>
-<td>SD</td>
-</tr>
-</table>
-<font color="#f8f4ff">* - каналы с пометкой (18+) подключаются отдельным пакетом за дополнительную плату</font>
-			<div class="clear"></div><!--CLEAR FLOATS-->
-		</div>
-	</section>
+                <img src="img/imgtv/belarus1.png">
+                <img src="img/imgtv/ont.png">
+                <img src="img/imgtv/stvhd.png">
+                <img src="img/imgtv/mir.png">
+                <img src="img/imgtv/rtr_belarus.png">
+                <img src="img/imgtv/ntv_belarus.png">
+                <img src="img/imgtv/belarus2.png">
+                <img src="img/imgtv/belarus3.png">
+                <img src="img/imgtv/belarus5.png">
+            </td>
+        </tr>
+        <tr>
+            <td><b>Фильмы/Сериалы</b></td>
+            <td>
+                <img src="img/imgtv/amedia1.png">
+                <img src="img/imgtv/amedia2.png">
+                <img src="img/imgtv/amedia_hit.png">
+                <img src="img/imgtv/amedia_premium.png">
+                <img src="img/imgtv/hollywood.png">
+                <img src="img/imgtv/hollywoodhd.png">
+                <img src="img/imgtv/filmuadrama.png">
+                <img src="img/imgtv/domkino.png">
+                <img src="img/imgtv/domkino_premium.png">
+                <img src="img/imgtv/dorama.png">
+                <img src="img/imgtv/kinohit.png">
+                <img src="img/imgtv/kinoseria.png">
+                <img src="img/imgtv/kinokomedia.png">
+                <img src="img/imgtv/kinomix.png">
+                <img src="img/imgtv/kinosvidanie.png">
+                <img src="img/imgtv/kinofamily.png">
+                <img src="img/imgtv/kinopremera.png">
+                <img src="img/imgtv/indikino.png">
+                <img src="img/imgtv/nashe_novoe_kino.png">
+                <img src="img/imgtv/nstv.png">
+                <img src="img/imgtv/eurokino.png">
+                <img src="img/imgtv/sci-fi.png">
+                <img src="img/imgtv/muzhskoe_kino.png">
+                <img src="img/imgtv/kinosat.png">
+                <img src="img/imgtv/red.png">
+                <img src="img/imgtv/rodnoe_kino.png">
+                <img src="img/imgtv/illusion.png">
+                <img src="img/imgtv/russki_illuzion.png">
+                <img src="img/imgtv/fenix.png">
+                <img src="img/imgtv/cinema.png">
+                <img src="img/imgtv/tv3.png">
+                <img src="img/imgtv/sovkino.png">
+                <img src="img/imgtv/klassic_kino.png">
+                <img src="img/imgtv/black.png">
+                <img src="img/imgtv/ntv_pravo.png">
+                <img src="img/imgtv/ntv_serial.png">
+                <img src="img/imgtv/ntv_style.png">
+                <img src="img/imgtv/domashni.png">
+                <img src="img/imgtv/lubimoe_kino.png">
+                <img src="img/imgtv/trash.png">
+                <img src="img/imgtv/dizi.png">
+            </td>
+        </tr>
+        <tr>
+            <td><b>Развлекательное</b></td>
+            <td>
+                <img src="img/imgtv/vtv.png">
+                <img src="img/imgtv/tnt_int.png">
+                <img src="img/imgtv/perec.png">
+                <img src="img/imgtv/telecafe.png">
+                <img src="img/imgtv/kuhnia.png">
+                <img src="img/imgtv/kvn.png">
+                <img src="img/imgtv/anekdot.png">
+                <img src="img/imgtv/5int.png">
+                <img src="img/imgtv/sarafan.png">
+                <img src="img/imgtv/jivi.png">
+            </td>
+        </tr>
+        <tr>
+            <td><b>Детские</b></td>
+            <td>
+                <img src="img/imgtv/cap-fan.png">
+                <img src="img/imgtv/ryzhiy.png">
+                <img src="img/imgtv/unikum.png">
+                <img src="img/imgtv/karusel.png">
+                <img src="img/imgtv/stskids.png">
+                <img src="img/imgtv/vgostiah.png">
+                <img src="img/imgtv/mult.png">
+                <img src="img/imgtv/duck.png">
+                <img src="img/imgtv/sovmult.png">
+                <img src="img/imgtv/smile.png">
+                <img src="img/imgtv/2x2.png">
+                <img src="img/imgtv/o.png">
+            </td>
+        </tr>
+        <tr>
+            <td><b>Спортивные</b></td>
+            <td>
+                <img src="img/imgtv/boks.png">
+                <img src="img/imgtv/match_planeta.png">
+                <img src="img/imgtv/es1.png">
+                <img src="img/imgtv/es2.png">
+                <img src="img/imgtv/khlhd.png">
+                <img src="img/imgtv/vtv.png">
+                <img src="img/imgtv/futbol.png">
+                <img src="img/imgtv/setanta_sports_1.png">
+                <img src="img/imgtv/setanta_sports_2.png">
+                <img src="img/imgtv/extreme.png">
+            </td>
+        </tr>
+        <tr>
+            <td><b>Познавательные</b></td>
+            <td>
+                <img src="img/imgtv/discovery_channel.png">
+                <img src="img/imgtv/discovery_science.png">
+                <img src="img/imgtv/id.png">
+                <img src="img/imgtv/animal_planet.png">
+                <img src="img/imgtv/history.png">
+                <img src="img/imgtv/history2.png">
+                <img src="img/imgtv/wf.png">
+                <img src="img/imgtv/hdl.png">
+                <img src="img/imgtv/1cosmo.png">
+                <img src="img/imgtv/vmire.png">
+                <img src="img/imgtv/zoo.png">
+                <img src="img/imgtv/ktoestkto.png">
+                <img src="img/imgtv/galaxy.png">
+                <img src="img/imgtv/365.png">
+                <img src="img/imgtv/zagorodnaya.png">
+                <img src="img/imgtv/autoplus.png">
+                <img src="img/imgtv/dikiy.png">
+                <img src="img/imgtv/dikaya_oxota.png">
+                <img src="img/imgtv/dikaya_rybalka.png">
+                <img src="img/imgtv/muzhskoi.png">
+                <img src="img/imgtv/orugie.png">
+                <img src="img/imgtv/teatr.png">
+                <img src="img/imgtv/souz.png">
+                <img src="img/imgtv/mussouz.png">
+                <img src="img/imgtv/oxotnik.png">
+                <img src="img/imgtv/zhivaya_priroda.png">
+                <img src="img/imgtv/glazami_turista.png">
+                <img src="img/imgtv/unknown_planet.png">
+                <img src="img/imgtv/arsenal.png">
+                <img src="img/imgtv/poexali.png">
+                <img src="img/imgtv/docu-box.png">
+                <img src="img/imgtv/bober.png">
+            </td>
+        </tr>
+        <tr>
+            <td><b>Информационные</b></td>
+            <td>
+                <img src="img/imgtv/vremia.png">
+                <img src="img/imgtv/mir24.png">
+                <img src="img/imgtv/nostalgia.png">
+                <img src="img/imgtv/8kanal.png">
+                <img src="img/imgtv/kazakh.png">
+                <img src="img/imgtv/domatv.png">
+                <img src="img/imgtv/skif.png">
+                <img src="img/imgtv/svetloe_tv.png">
+                <img src="img/imgtv/tv2mogilev.png">
+            </td>
+        </tr>
+        <tr>
+            <td><b>Музыкальные</b></td>
+            <td>
+                <img src="img/imgtv/rutv.png">
+                <img src="img/imgtv/music_pervogo.png">
+                <img src="img/imgtv/tnt_music.png">
+                <img src="img/imgtv/laminor.png">
+                <img src="img/imgtv/europe_plus.png">
+                <img src="img/imgtv/zhara.png">
+                <img src="img/imgtv/1_muz_hd.png">
+                <img src="img/imgtv/360_tune_box.png">
+                <img src="img/imgtv/live_music_channel_hd.png">
+                <img src="img/imgtv/belmustv.png">
+            </td>
+        </tr>
+        <tr>
+            <td><b>4k | UltraHD</b></td>
+            <td>
+                <img src="img/imgtv/home4k.png">
+                <img src="img/imgtv/ultra4k_extreme.png">
+                <img src="img/imgtv/funbox_uhd.png">
+            </td>
+        </tr>
+    </table>
+        </div>
+    </div>
+</div>
+</section>
 </body>
+<script src="libs/jquery/jquery-3.3.1.min.js" type="text/javascript"></script>
+<script src="libs/slick/slick.min.js" type="text/javascript"></script>
+<script src="js/index.js" type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </html>
+<!--<font color="#f8f4ff">* - каналы с пометкой (18+) подключаются отдельным пакетом за дополнительную плату</font>-->
+<!--			<div class="clear"></div>&lt;!&ndash;CLEAR FLOATS&ndash;&gt;-->
