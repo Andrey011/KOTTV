@@ -135,7 +135,7 @@ li img {
 .slide img {
   display: block;
   position: relative;
-  height: 100%;
+  height: auto;
 }
 .imgtv {
     display:flex;
@@ -148,6 +148,10 @@ li img {
 }
 .slider-with-channels .slick-list {
     height: auto;
+}
+.slide-width {
+    width: 50%;
+    min-height: 30px;
 }
 .modal {
   font-family: "GloberSemiBoldFree", sans-serif;

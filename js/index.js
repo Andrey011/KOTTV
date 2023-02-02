@@ -88,6 +88,7 @@ $(".slider-channels").each(function () {
     }
   });
   $(".slider-with-channels").slick({
+  dots: false,
   arrows: false,
   centerPadding: '60px',
   speed: 500,
@@ -109,28 +110,5 @@ $(".slider-of-tariffs").slick({
   slidesToScroll: 1,
   lazyLoad: 'ondemand',
   initialSlide: 0,
-  asNavFor: ".slider-with-channels",
-  responsive: [
-          {
-              breakpoint: 768,
-              settings: {
-                  arrows: true,
-                  dots: true,
-                  infinite: false,
-                  centerMode: true,
-                  centerPadding: '40px',
-                  slidesToShow: 3
-              }
-          },
-          {
-          breakpoint: 480,
-          settings: {
-                  arrows: true,
-                  dots: true,
-                  centerMode: true,
-                  centerPadding: '40px',
-                  slidesToShow: 1
-              }
-          }
-      ]
+  asNavFor: ".slider-with-channels"
 });
