@@ -135,7 +135,7 @@ li img {
 .slide img {
   display: block;
   position: relative;
-  height: auto;
+
 }
 .imgtv {
     display:flex;
@@ -163,4 +163,9 @@ li img {
 
 #left80 {
   left: 80%!important;
+}
+.footer__payment-info img.payment-type {
+  max-height: 40px;
+  width: auto;
+  margin: 10px;
 }
