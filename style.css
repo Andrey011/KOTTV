@@ -1571,10 +1571,6 @@ li img {
     z-index:-1;
     overflow:  hidden;
 }
-@keyframes animatedBackground {
-from { background-position: 0 0; }
-to { background-position: 100% 0; }
-}
 .single-item-detail .slick slide {
     width: 100%;
 }
