@@ -372,7 +372,8 @@ main {
 }
 
 .tariff__subscribe a:hover {
-  background: #5259bf;
+  border-color: #6cd1ce;
+    background: #6cd1ce;
 }
 
 .tariff__footnote {
@@ -696,4 +697,7 @@ main {
 }
 .slick-initialized .slider-channels-tariffs {
     display: block;
+}
+footer a:hover {
+    text-decoration-line: underline;
 }

@@ -150,7 +150,7 @@ li img {
     height: auto;
 }
 .slide-width {
-    width: 50%;
+    width: 20%;
     min-height: 30px;
 }
 .modal {
@@ -168,4 +168,7 @@ li img {
   max-height: 40px;
   width: auto;
   margin: 10px;
+}
+footer a:hover {
+    text-decoration-line: underline;
 }

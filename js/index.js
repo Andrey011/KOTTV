@@ -9,7 +9,7 @@ $(".single-item-detail").slick({
   slidesToScroll: 1,
   lazyLoad: 'ondemand',
   autoplay: true,
-  autoplaySpeed: 2000,
+  autoplaySpeed: 3000,
   initialSlide: 1,
   asNavFor: ".single-item"
 })
@@ -23,7 +23,7 @@ $(".single-item").slick({
   slidesToScroll: 1,
   lazyLoad: 'ondemand',
   autoplay: true,
-  autoplaySpeed: 2000,
+  autoplaySpeed: 3000,
   initialSlide: 1,
   asNavFor: ".single-item-detail",
   responsive: [
