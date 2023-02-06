@@ -1509,6 +1509,7 @@ li img {
     justify-content: center !important;
     padding: 0 10px;
     height: 95%;
+    cursor: pointer;
 }
 .slick-current .slide-text {
     opacity: 1;

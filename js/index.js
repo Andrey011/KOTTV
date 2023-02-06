@@ -16,7 +16,6 @@ $(".single-item-detail").slick({
 $(".single-item").slick({
   dots: true,
   centerMode: true,
-
   centerPadding: '60px',
   infinite: true,
   speed: 500,
@@ -110,5 +109,6 @@ $(".slider-of-tariffs").slick({
   slidesToScroll: 1,
   lazyLoad: 'ondemand',
   initialSlide: 0,
+
   asNavFor: ".slider-with-channels"
 });
