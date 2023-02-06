@@ -374,8 +374,14 @@ main {
 .tariff__subscribe a:hover {
   border-color: #6cd1ce;
     background: #6cd1ce;
+    color: white;
 }
-
+.tariff__subscribe a:focus {
+    color: #fff;
+    background-color: #0b5ed7;
+    border-color: #0a58ca;
+    box-shadow: 0 0 0 0.25rem rgb(49 132 253 / 50%);
+}
 .tariff__footnote {
   text-align: center;
   font-family: Gothic-bold;
@@ -397,7 +403,6 @@ main {
 .tariff-spec .tariff__subscribe a:hover {
   background: #05dbf3;
   color: black;
-
 }
 .tariff-premium__features {
   padding-right: 21px;

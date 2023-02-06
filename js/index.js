@@ -8,8 +8,7 @@ $(".single-item-detail").slick({
   slidesToShow: 3,
   slidesToScroll: 1,
   lazyLoad: 'ondemand',
-  autoplay: true,
-  autoplaySpeed: 3000,
+
   initialSlide: 1,
   asNavFor: ".single-item"
 })
@@ -25,6 +24,8 @@ $(".single-item").slick({
   autoplay: true,
   autoplaySpeed: 3000,
   initialSlide: 1,
+  focusOnSelect: true,
+  pauseOnHover:true,
   asNavFor: ".single-item-detail",
   responsive: [
           {
