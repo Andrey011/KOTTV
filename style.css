@@ -1613,7 +1613,12 @@ li img {
   width: auto;
   margin: 10px;
 }
-
+.bi-vkontakte:hover>g>rect {
+    fill:#0a58ca;
+}
+.bi-telegram:hover>g>rect {
+    fill:#0a58ca;
+}
 body {
   background: #1a1e23;
   margin: 0;

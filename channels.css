@@ -172,3 +172,9 @@ li img {
 footer a:hover {
     text-decoration-line: underline;
 }
+.bi-vkontakte:hover>g>rect {
+    fill:#0a58ca;
+}
+.bi-telegram:hover>g>rect {
+    fill:#0a58ca;
+}
