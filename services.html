@@ -15,46 +15,49 @@
 
 </head>
 <body>
-<!-- Header -->
-    <div id="header" class="header">
-        <header class="d-flex justify-content-center py-3">
-          <ul class="nav nav-pills">
-            <li class="nav-item"><a href="index.html" class="nav-link center"><img src="img/logo.svg" alt="KOTTV" width="90" height="60"></a></li>
-            <li class="nav-item"><a href="index.html" class="nav-link" aria-current="page">Главная</a></li>
-            <li class="nav-item"><a href="tariffs.html" class="nav-link">Тарифы</a></li>
-            <li class="nav-item"><a href="channels.html" class="nav-link">Каналы</a></li>
-            <li class="nav-item"><a href="services.html" class="nav-link">Услуги</a></li>
-            <li class="nav-item position-relative top-50 start-100 translate-middle" id="left80"><a href="#myModal"
-            class="btn btn-lg btn-primary" data-toggle="modal" class="nav-link">Войти</a></li>
-          </ul>
-        </header>
-      </div>
+ <!-- Header -->
+ <div id="header" class="header">
+  <header class="d-flex justify-content-center py-3">
+    <ul class="nav nav-pills">
+      <li class="nav-item"><a href="index.html" class="nav-link center"><img src="img/logo.svg" alt="KOTTV" width="90"
+            height="60"></a></li>
+      <li class="nav-item"><a href="index.html" class="nav-link" aria-current="page">Главная</a></li>
+      <li class="nav-item"><a href="tariffs.html" class="nav-link">Тарифы</a></li>
+      <li class="nav-item"><a href="channels.html" class="nav-link">Каналы</a></li>
+      <li class="nav-item"><a href="services.html" class="nav-link">Услуги</a></li>
+      <!-- HTML-код кнопки (триггер модального окна)-->
+      <li class="nav-item position-relative top-50 start-100 translate-middle" id="left80"><a href="#myModal"
+          class="btn btn-lg btn-primary" data-toggle="modal" class="nav-link">Войти</a></li>
+    </ul>
+  </header>
+</div>
+
 <!-- HTML-код модального окна -->
-  <div id="myModal" class="modal" tabindex="-1">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <!-- Login Form -->
-        <form action="">
-          <div class="modal-header">
-            <h5 class="modal-title">Авторизация</h5>
-            <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
+<div id="myModal" class="modal" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <!-- Login Form -->
+      <form action="">
+        <div class="modal-header">
+          <h5 class="modal-title">Авторизация</h5>
+          <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="mb-3">
+            <label for="Username">Номер телефона<span class="text"></span></label>
+            <input type="tel" name="username" class="form-control" id="Username" placeholder="+375 (99) 999-99-99"
+              pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
           </div>
-          <div class="modal-body">
-            <div class="mb-3">
-              <label for="Username">Номер телефона<span class="text"></span></label>
-              <input type="tel" name="username" class="form-control" id="Username" placeholder="+375 (99) 999-99-99"
-                pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
-            </div>
-            <div class="mb-3">
-            </div>
+          <div class="mb-3">
           </div>
-          <div class="modal-footer pt-4">
-            <button type="button" class="btn btn-outline-primary mx-auto w-100">Получить код!</button>
-          </div>
-        </form>
-      </div>
+        </div>
+        <div class="modal-footer pt-4">
+          <button type="button" class="btn btn-outline-primary mx-auto w-100">Получить код!</button>
+        </div>
+      </form>
     </div>
   </div>
+</div>
 <section class="light-wrapper">
 
 		<div class="wrapper">

@@ -178,3 +178,7 @@ footer a:hover {
 .bi-telegram:hover>g>rect {
     fill:#0a58ca;
 }
+
+#noborder {
+	border: 0px solid #dee2e6 !important;
+  }

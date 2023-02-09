@@ -1,26 +1,108 @@
-    @font-face {
-      font-family: 'GloberSemiBoldFree';
-      src: url('../fonts/globersemiboldfree.eot'); /* IE 9 Compatibility Mode */
-      src: url('../fonts/globersemiboldfree.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
-        url('../fonts/globersemiboldfree.woff2') format('woff2'), /* Super Modern Browsers */
-        url('../fonts/globersemiboldfree.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
-        url('../fonts/globersemiboldfree.ttf') format('truetype'), /* Safari, Android, iOS */
-        url('../fonts/globersemiboldfree.svg#globersemiboldfree') format('svg'); /* Chrome < 4, Legacy iOS */
-    }
+@font-face {
+  font-family: "GloberSemiBoldFree";
+  src: url("../fonts/globersemiboldfree.eot"); /* IE 9 Compatibility Mode */
+  src: url("../fonts/globersemiboldfree.eot?#iefix") format("embedded-opentype"),
+    /* IE < 9 */ url("../fonts/globersemiboldfree.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/globersemiboldfree.woff")
+      format("woff"),
+    /* Firefox >= 3.6, any other modern browser */
+      url("../fonts/globersemiboldfree.ttf") format("truetype"),
+    /* Safari, Android, iOS */
+      url("../fonts/globersemiboldfree.svg#globersemiboldfree") format("svg"); /* Chrome < 4, Legacy iOS */
+}
 
-    html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
-    font-family: "GloberSemiBoldFree", sans-serif;
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
-    }
-
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  font-family: "GloberSemiBoldFree", sans-serif;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
 
 .grid-row {
-  position:relative;
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -54,7 +136,6 @@
 
 .grid-col-5 {
   width: 41.666667%;
-  ;
   padding: 0 10px;
 }
 
@@ -105,7 +186,6 @@
 
   .grid-col-5_sm {
     width: 41.666667%;
-    ;
     padding: 0 10px;
   }
 
@@ -175,19 +255,19 @@ main {
   -webkit-box-flex: 1;
   -ms-flex-positive: 1;
   flex-grow: 1;
-
 }
- #subscriptions {
-    padding-top: 60px;
-    display: flex;
-    padding-bottom: 51px;
-    background-color: #e6eaf2;
-    overflow: hidden;
-    align-items: center;
-    justify-content: space-evenly;
+#subscriptions {
+  padding-top: 60px;
+  display: flex;
+  padding-bottom: 51px;
+  background-color: #e6eaf2;
+  overflow: hidden;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 #subscriptions .content-wrapper {
+  font-family: "GloberSemiBoldFree", sans-serif;
   max-width: 1170px;
   width: 100%;
 }
@@ -209,7 +289,6 @@ main {
   font-size: 16px;
   color: #666666;
   text-align: center;
-
 }
 
 .subscriptions__add-now a {
@@ -247,7 +326,7 @@ main {
 }
 
 .tariff__header_promo:before {
-  content: 'ПРОМО';
+  content: "ПРОМО";
   position: absolute;
   left: -30px;
   top: -16px;
@@ -308,7 +387,7 @@ main {
 }
 
 .tariff__feature:before {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   top: 1px;
@@ -353,7 +432,7 @@ main {
 
 .tariff__footer {
   min-height: 204px;
-  padding: 0px 15px 30px
+  padding: 0px 15px 30px;
 }
 
 .tariff__price {
@@ -386,14 +465,14 @@ main {
 
 .tariff__subscribe a:hover {
   border-color: #6cd1ce;
-    background: #6cd1ce;
-    color: white;
+  background: #6cd1ce;
+  color: white;
 }
 .tariff__subscribe a:focus {
-    color: #fff;
-    background-color: #0b5ed7;
-    border-color: #0a58ca;
-    box-shadow: 0 0 0 0.25rem rgb(49 132 253 / 50%);
+  color: #fff;
+  background-color: #0b5ed7;
+  border-color: #0a58ca;
+  box-shadow: 0 0 0 0.25rem rgb(49 132 253 / 50%);
 }
 .tariff__footnote {
   text-align: center;
@@ -441,7 +520,7 @@ main {
 }
 
 .tariff-premium__feature:before {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   top: -1px;
@@ -457,7 +536,6 @@ main {
 .tariff-premium__feature.tariff-premium__feature_cinema {
   margin-bottom: 7px;
 }
-
 
 .tariff-premium__feature-row {
   display: -webkit-box;
@@ -510,7 +588,7 @@ main {
 }
 
 .tariff-premium__total-price span:before {
-  content: '';
+  content: "";
   position: absolute;
   width: 100%;
   height: 4px;
@@ -695,27 +773,36 @@ main {
   text-align: center;
 }
 @keyframes animatedBackground {
-    from { background-position: 0% 0%; }
-    to { background-position: 100% 0%; }
+  from {
+    background-position: 0% 0%;
+  }
+  to {
+    background-position: 100% 0%;
+  }
 }
 .example_tariffs {
-    width: 100%;
-    height: 50%;
-    position:absolute;
-    overflow-x:hidden;
-    left:0;
-    top:450px;
-    opacity:0.4;
-    font-size:0;
-    z-index:0;
+  width: 100%;
+  height: 50%;
+  position: absolute;
+  overflow-x: hidden;
+  left: 0;
+  top: 450px;
+  opacity: 0.4;
+  font-size: 0;
+  z-index: 0;
 }
 .slider-channels-tariffs {
-    white-space: nowrap;
-
+  white-space: nowrap;
 }
 .slick-initialized .slider-channels-tariffs {
-    display: block;
+  display: block;
 }
 footer a:hover {
-    text-decoration-line: underline;
+  text-decoration-line: underline;
+}
+
+#centered {
+  display: grid;
+  /* left:50% !important;
+  right: 50% !important; */
 }
