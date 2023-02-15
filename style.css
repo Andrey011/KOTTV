@@ -3278,6 +3278,9 @@ footer a:hover {
     padding: 0 10px;
   }
 }
+.step-1 {
+  padding-top: 40px;
+}
 .device_img {
   margin-bottom: 27px;
 }
