@@ -3211,3 +3211,149 @@ footer a:hover {
   width: 100%;
   padding: 0 10px;
 }
+
+@media only screen and (max-width: 991px) {
+  .grid-col_sm {
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+    padding: 0 10px;
+  }
+
+  .grid-col-2_sm {
+    width: 16.666667%;
+    padding: 0 10px;
+  }
+
+  .grid-col-3_sm {
+    width: 25%;
+    padding: 0 10px;
+  }
+
+  .grid-col-4_sm {
+    width: 33.33333%;
+    padding: 0 10px;
+  }
+
+  .grid-col-5_sm {
+    width: 41.666667%;
+    padding: 0 10px;
+  }
+
+  .grid-col-6_sm {
+    width: 50%;
+    padding: 0 10px;
+  }
+
+  .grid-col-7_sm {
+    width: 58.333333%;
+    padding: 0 10px;
+  }
+
+  .grid-col-8_sm {
+    width: 66.66667%;
+    padding: 0 10px;
+  }
+
+  .grid-col-12_sm {
+    width: 100%;
+    padding: 0 10px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .grid-col-6_xs {
+    width: 50%;
+    -ms-flex-preferred-size: auto;
+    flex-basis: auto;
+    padding: 0 10px;
+  }
+
+  .grid-col-12_xs {
+    width: 100%;
+    -ms-flex-preferred-size: auto;
+    flex-basis: auto;
+    padding: 0 10px;
+  }
+}
+.device_img {
+  margin-bottom: 27px;
+}
+.device_img img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+.device_name {
+  color: #05dbf3;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.Find_app {
+    margin-bottom: 40px;
+}
+.search_input_wrap {
+  width: 100%;
+  padding: 50px;
+  border-radius: 1px;
+}
+.search_input {
+  position: relative;
+  max-width: 410px;
+  margin-left: 50px;
+  margin-top: 40px;
+  padding: 18px 32px;
+  border: 2px solid #5259bf;
+  border-radius: 8px;
+  font-size: 24px;
+  color: #fff;
+}
+.search_input:after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  right: 15px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  background-image: url(img/magnifying-glass.svg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.search_input2 {
+  position: relative;
+  max-width: 410px;
+  margin-left: 50px;
+  margin-top: 40px;
+  padding: 18px 32px;
+  border: 2px solid #5259bf;
+  border-radius: 8px;
+  font-size: 24px;
+  color: #fff;
+}
+.search_input2:after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  right: 15px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  background-image: url(img/arrows-right.svg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.tutorial_text {
+  font-size: 40px;
+  margin-top: 20px;
+}
