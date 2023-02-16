@@ -2102,6 +2102,7 @@ body {
 
 .bubble {
   position: absolute;
+  z-index: -1;
   left: var(--bubble-left-offset);
   bottom: -75%;
   display: block;
@@ -2613,7 +2614,7 @@ body {
   padding-top: 60px;
   display: flex;
   padding-bottom: 51px;
-  background-color: #e6eaf2;
+  background-color: #e6eaf28a;
   overflow: hidden;
   align-items: center;
   justify-content: space-evenly;
