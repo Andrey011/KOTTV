@@ -3307,7 +3307,8 @@ footer a:hover {
 .search_input {
   position: relative;
   max-width: 410px;
-  margin-left: 50px;
+  width:100%;
+  margin-left: 20px;
   margin-top: 40px;
   padding: 18px 32px;
   border: 2px solid #5259bf;
@@ -3333,7 +3334,8 @@ footer a:hover {
 .search_input2 {
   position: relative;
   max-width: 410px;
-  margin-left: 50px;
+  width: 100%;
+  margin-left: 20px;
   margin-top: 40px;
   padding: 18px 32px;
   border: 2px solid #5259bf;
