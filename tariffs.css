@@ -772,6 +772,26 @@ main {
   color: #5259bf;
   text-align: center;
 }
+.channel_slider1 {
+    background-image: url(img/intro/0.png);background-position: 0px 0px;background-repeat: repeat-x;animation: animatedBackground 60s linear infinite;
+}
+.channel_slider2 {
+    background-image: url(img/intro/1.png);background-position: 0px 0px;background-repeat: repeat-x;animation: animatedBackground 60s linear infinite;
+}
+.channel_slider3 {
+    background-image: url(img/intro/2.png);background-position: 0px 0px;background-repeat: repeat-x;animation: animatedBackground 60s linear infinite;
+}
+@media (max-width: 1023px) {
+  .channel_slider1{
+    background-image: none;
+  }
+  .channel_slider2{
+    background-image: none;
+  }
+  .channel_slider3{
+    background-image: none;
+  }
+}
 @keyframes animatedBackground {
   from {
     background-position: 0% 0%;
