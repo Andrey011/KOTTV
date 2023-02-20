@@ -21,3 +21,8 @@ p{margin-bottom:25px;}
 footer a:hover {
     text-decoration-line: underline;
 }
+.modal-header {
+  border-bottom: none;
+  border-top-left-radius: none;
+  border-top-right-radius: none;
+}

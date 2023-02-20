@@ -765,7 +765,14 @@ main {
   max-width: 100%;
   margin: 10px 13px;
 }
-
+.cinema_button {
+  display:grid; width: 180px; align-content: center; margin-left: 45%;
+}
+@media (max-width: 426px) {
+  .cinema_button {
+    margin-left: 25%;
+  }
+}
 .cinema__price {
   font-family: Gothic-regular;
   font-size: 32px;

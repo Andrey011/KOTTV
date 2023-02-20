@@ -3126,6 +3126,18 @@ body {
   color: #5259bf;
   text-align: center;
 }
+.cinema_button {
+  display:grid;
+  width: 180px;
+  align-content: center;
+
+}
+@media (max-width: 426px) {
+  .cinema_button {
+    margin-left: 0%;
+  }
+}
+
 @keyframes animatedBackground {
   from {
     background-position: 0% 0%;
@@ -3357,6 +3369,14 @@ footer .text-muted:hover {
     margin-left: 0px;
   }
 }
+@media (max-width: 321px) {
+  .search_input2 {
+    padding-left: 5px;
+  }
+  .search_input {
+    padding-left: 5px;
+  }
+}
 .search_input2:after {
   content: '';
   display: block;
@@ -3379,11 +3399,11 @@ footer .text-muted:hover {
 .footer_title {
   font-size: 42px;
   text-align: center;
-  margin-bottom: 44px;
+  margin-bottom: 32px;
 }
 .footer_description {
   max-width: auto;
-  margin: 0 auto 50px;
+  margin: 0 auto 30px;
   font-size: 20px;
   letter-spacing: -0.5px;
   line-height: 1.1;
@@ -3403,6 +3423,7 @@ footer .text-muted:hover {
 .footer_note2 {
   max-width: auto;
   margin: 0 auto;
+  margin-bottom: 5px;
   font-size: 14px;
   letter-spacing: -0.4px;
   line-height: 1.2;
