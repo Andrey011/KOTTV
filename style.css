@@ -2020,6 +2020,10 @@ li img {
 .single-item-detail .slick slide {
   width: 100%;
 }
+.dark-wrapper {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
 .dark-wrapper .col-6 {
   width: 70%;
   padding-right: calc(var(--bs-gutter-x) * 2.5);
@@ -2027,6 +2031,16 @@ li img {
 }
 .dark-wrapper .col-2 {
   width: 30%;
+}
+@media (max-width: 426px) {
+  .dark-wrapper .col-6 {
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    margin-bottom: 5px;
+  }
+  .dark-wrapper .col-2 {
+    width: 100%;
+  }
 }
 @font-face {
   font-family: "FontAwesome";
