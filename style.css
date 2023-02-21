@@ -3445,3 +3445,20 @@ footer .text-muted:hover {
   opacity: 0.6;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
 }
+.hero-buttons {
+  display: grid!important;
+}
+.hero-button {
+  padding-right: 1.5rem!important;
+  padding-left: 1.5rem!important;
+}
+@media (max-width: 426px) {
+  .hero-button {
+    padding: 5px!important;
+    padding-left: 5px!important;
+    padding-right: 5px!important;
+  }
+  .hero-buttons {
+    display: flex!important;
+  }
+}
