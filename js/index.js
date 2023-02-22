@@ -115,3 +115,11 @@ $(".slider-of-tariffs").slick({
 
   asNavFor: ".slider-with-channels"
 });
+document.querySelector('.first-button').addEventListener('click', function () {
+
+  document.querySelector('.animated-icon1').classList.toggle('open');
+  });
+document.querySelector('.first-button').addEventListener('click', function () {
+
+  document.querySelector('.collapse').classList.toggle('show');
+  });
