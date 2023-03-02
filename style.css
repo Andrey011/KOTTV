@@ -3556,7 +3556,7 @@ footer .text-muted:hover {
   padding-right: 1.5rem!important;
   padding-left: 1.5rem!important;
 }
-@media (max-width: 426px) {
+@media (max-width: 767.9px) {
   .hero-button {
     padding: 5px!important;
     padding-left: 5px!important;
@@ -3564,5 +3564,20 @@ footer .text-muted:hover {
   }
   .hero-buttons {
     display: flex!important;
+  }
+}
+.col-nn {
+ display: none;
+}
+@media (max-width: 767.9px) {
+  .col-n1 {
+    width: 40%!important;
+  }
+  .col-n2 {
+    width: 60%!important;
+  }
+  .col-n3 {
+    width: 100%!important;
+    margin-left: 0px!important;
   }
 }

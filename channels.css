@@ -134,7 +134,8 @@ li img {
 .slide img {
   display: block;
   position: relative;
-
+  margin: 5px;
+  opacity: 1;
 }
 .imgtv {
     display:flex;
@@ -213,4 +214,1388 @@ footer a:hover {
 .btn.btn-primary:hover {
   border-color: #6cd1ce;
   background: #6cd1ce;
+}
+.col-nn {
+ display: none;
+}
+@media (max-width: 767.9px) {
+  .col-n1 {
+    width: 40%!important;
+  }
+  .col-n2 {
+    width: 60%!important;
+  }
+  .col-n3 {
+    width: 100%!important;
+    margin-left: 0px!important;
+  }
+}
+p{
+  width: auto;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  text-align: center;
+  color: white;
+  animation: fade .5s linear forwards;
+  height: 40px;
+}
+.bel-1 {
+  background: url('img/imgtv/belarus1.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.bel-2 {
+  background: url('img/imgtv/belarus2.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.bel-3 {
+  background: url('img/imgtv/belarus3.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.bel-5 {
+  background: url('img/imgtv/belarus5.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.ont {
+  background: url('img/imgtv/ont.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.stv {
+  background: url('img/imgtv/stvhd.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.mir {
+  background: url('img/imgtv/mir.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.rtr_bel {
+  background: url('img/imgtv/rtr_belarus.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.ntv_bel {
+  background: url('img/imgtv/ntv_belarus.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.dorama {
+  background: url('img/imgtv/dorama.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.kinohit {
+  background: url('img/imgtv/kinohit.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.kinoseria {
+  background: url('img/imgtv/kinoseria.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.kinokomedia {
+  background: url('img/imgtv/kinokomedia.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.kinomix {
+  background: url('img/imgtv/kinomix.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.kinosvidanie {
+  background: url('img/imgtv/kinosvidanie.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.kinofamily {
+  background: url('img/imgtv/kinofamily.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.kinopremera {
+  background: url('img/imgtv/kinopremera.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.indikino {
+  background: url('img/imgtv/indikino.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.nnk {
+  background: url('img/imgtv/nashe_novoe_kino.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.nstv {
+  background: url('img/imgtv/nstv.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.eurokino {
+  background: url('img/imgtv/eurokino.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.sci-fi {
+  background: url('img/imgtv/sci-fi.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.muzhskoe_kino {
+  background: url('img/imgtv/muzhskoe_kino.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.kinosat {
+  background: url('img/imgtv/kinosat.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.red {
+  background: url('img/imgtv/red.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.rodnoe_kino {
+  background: url('img/imgtv/rodnoe_kino.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.illusion {
+  background: url('img/imgtv/illusion.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.russki_illusion {
+  background: url('img/imgtv/russki_illuzion.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.fenix {
+  background: url('img/imgtv/fenix.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.cinema {
+  background: url('img/imgtv/cinema.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.tv3{
+  background: url('img/imgtv/tv3.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.sovkino {
+  background: url('img/imgtv/sovkino.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.klassic_kino {
+  background: url('img/imgtv/klassic_kino.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.black {
+  background: url('img/imgtv/black.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.lubimoe_kino {
+  background: url('img/imgtv/lubimoe_kino.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.trash {
+  background: url('img/imgtv/trash.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.dizi {
+  background: url('img/imgtv/dizi.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.vtv {
+  background: url('img/imgtv/vtv.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.tnt_int {
+  background: url('img/imgtv/tnt_int.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.kuhnia {
+  background: url('img/imgtv/kuhnia.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.kvn {
+  background: url('img/imgtv/kvn.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.anekdot {
+  background: url('img/imgtv/anekdot.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.int5 {
+  background: url('img/imgtv/5int.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.sarafan {
+  background: url('img/imgtv/sarafan.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.jivi {
+  background: url('img/imgtv/jivi.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.unikum {
+  background: url('img/imgtv/unikum.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.stskids {
+  background: url('img/imgtv/stskids.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.vgostiah {
+  background: url('img/imgtv/vgostiah.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.mult {
+  background: url('img/imgtv/mult.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.duck {
+  background: url('img/imgtv/duck.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.sovmult {
+  background: url('img/imgtv/sovmult.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.smile {
+  background: url('img/imgtv/smile.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.x2 {
+  background: url('img/imgtv/2x2.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.boks {
+  background: url('img/imgtv/boks.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.match_planeta {
+  background: url('img/imgtv/match_planeta.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.khlhd {
+  background: url('img/imgtv/khlhd.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.futbol {
+  background: url('img/imgtv/futbol.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.setanta_sports_1 {
+  background: url('img/imgtv/setanta_sports_1.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.setanta_sports_2 {
+  background: url('img/imgtv/setanta_sports_2.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.wf {
+  background: url('img/imgtv/wf.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.hdl {
+  background: url('img/imgtv/hdl.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.cosmo1 {
+  background: url('img/imgtv/1cosmo.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.vmire {
+  background: url('img/imgtv/vmire.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.zoo {
+  background: url('img/imgtv/zoo.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.ktoestkto {
+  background: url('img/imgtv/ktoestkto.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.galaxy {
+  background: url('img/imgtv/galaxy.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.t365{
+  background: url('img/imgtv/365.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.zagorodnaya {
+  background: url('img/imgtv/zagorodnaya.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.autoplus {
+  background: url('img/imgtv/autoplus.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.dikiy {
+  background: url('img/imgtv/dikiy.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.dikaya_oxota {
+  background: url('img/imgtv/dikaya_oxota.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.dikaya_rybalka {
+  background: url('img/imgtv/dikaya_rybalka.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.muzhskoi {
+  background: url('img/imgtv/muzhskoi.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.orugie {
+  background: url('img/imgtv/orugie.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.teatr {
+  background: url('img/imgtv/teatr.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.souz {
+  background: url('img/imgtv/souz.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.mussouz {
+  background: url('img/imgtv/mussouz.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.oxotnik {
+  background: url('img/imgtv/oxotnik.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.zhivaya_priroda {
+  background: url('img/imgtv/zhivaya_priroda.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.glazami_turista {
+  background: url('img/imgtv/glazami_turista.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.unknown_planet {
+  background: url('img/imgtv/unknown_planet.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.mir24 {
+  background: url('img/imgtv/mir24.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.nostalgia {
+  background: url('img/imgtv/nostalgia.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.kanal8 {
+  background: url('img/imgtv/8kanal.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.kazakh {
+  background: url('img/imgtv/kazakh.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.domatv {
+  background: url('img/imgtv/domatv.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.skif {
+  background: url('img/imgtv/skif.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.svetloe_tv {
+  background: url('img/imgtv/svetloe_tv.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.tv2mogilev {
+  background: url('img/imgtv/tv2mogilev.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.rutv {
+  background: url('img/imgtv/rutv.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.tnt_music {
+  background: url('img/imgtv/tnt_music.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.laminor {
+  background: url('img/imgtv/laminor.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.europe_plus {
+  background: url('img/imgtv/europe_plus.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.zhara {
+  background: url('img/imgtv/zhara.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.muz_1_hd {
+  background: url('img/imgtv/1_muz_hd.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.live_music_channel_hd {
+  background: url('img/imgtv/live_music_channel_hd.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.belmustv {
+  background: url('img/imgtv/belmustv.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.home4k {
+  background: url('img/imgtv/home4k.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.ultra4k_extreme {
+  background: url('img/imgtv/ultra4k_extreme.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.amedia1 {
+  background: url('img/imgtv/amedia1.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.amedia2 {
+  background: url('img/imgtv/amedia2.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.amedia_hit {
+  background: url('img/imgtv/amedia_hit.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.amedia_premium {
+  background: url('img/imgtv/amedia_premium.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.hollywood {
+  background: url('img/imgtv/hollywood.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.hollywoodhd {
+  background: url('img/imgtv/hollywoodhd.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.filmuadrama {
+  background: url('img/imgtv/filmuadrama.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.domkino {
+  background: url('img/imgtv/domkino.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.domkino_premium {
+  background: url('img/imgtv/domkino_premium.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.ntv_pravo {
+  background: url('img/imgtv/ntv_pravo.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.ntv_serial {
+  background: url('img/imgtv/ntv_serial.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.ntv_style {
+  background: url('img/imgtv/ntv_style.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.domashni {
+  background: url('img/imgtv/domashni.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.perec {
+  background: url('img/imgtv/perec.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.telecafe {
+  background: url('img/imgtv/telecafe.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.cap-fan {
+  background: url('img/imgtv/cap-fan.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.ryzhiy {
+  background: url('img/imgtv/ryzhiy.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.karusel {
+  background: url('img/imgtv/karusel.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.o {
+  background: url('img/imgtv/o.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.es1 {
+  background: url('img/imgtv/es1.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.es2 {
+  background: url('img/imgtv/es2.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.extreme {
+  background: url('img/imgtv/extreme.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.discovery_channel {
+  background: url('img/imgtv/discovery_channel.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.discovery_science {
+  background: url('img/imgtv/discovery_science.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.id {
+  background: url('img/imgtv/id.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.animal_planet {
+  background: url('img/imgtv/animal_planet.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.history {
+  background: url('img/imgtv/history.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.history2 {
+  background: url('img/imgtv/history2.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.arsenal {
+  background: url('img/imgtv/arsenal.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.poexali {
+  background: url('img/imgtv/poexali.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.docu-box {
+  background: url('img/imgtv/docu-box.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.bober {
+  background: url('img/imgtv/bober.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.vremia {
+  background: url('img/imgtv/vremia.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.music_pervogo {
+  background: url('img/imgtv/music_pervogo.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.tune_360_box {
+  background: url('img/imgtv/360_tune_box.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.funbox_uhd {
+  background: url('img/imgtv/funbox_uhd.png') no-repeat center top;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+.bel-1:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.bel-2:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.bel-3:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.bel-5:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.ont:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.stv:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.mir:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.rtr-bel:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.ntv-bel:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.dorama:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.kinohit:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.kinoseria:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.kinokomedia:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.kinomix:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.kinosvidanie:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.kinofamily:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.kinopremera:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.indikino:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.nnk:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.nstv:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.eurokino:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.sci-fi:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.muzhskoe_kino:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.kinosat:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.red:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.rodnoe_kino:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.illusion:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.russki_illusion:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.fenix:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.cinema:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.tv3:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.sovkino:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.klassic_kino:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.black:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.lubimoe_kino:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.trash:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.dizi:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.vtv:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.tnt_int:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.kuhnia:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.kvn:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.anekdot:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.int5:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.sarafan:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.jivi:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.unikum:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.stskids:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.vgostiah:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.mult:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.duck:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.sovmult:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.smile:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.x2:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.boks:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.match_planeta:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.khlhd:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.futbol:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.setanta_sports_1:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.setanta_sports_2:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.wf:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.hdl:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.cosmo1:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.vmire:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.zoo:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.ktoestkto:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.galaxy:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.t365:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.zagorodnaya:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.autoplus:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.dikiy:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.dikaya_oxota:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.dikaya_rybalka:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.muzhskoi:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.orugie:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.teatr:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.souz:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.mussouz:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.oxotnik:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.zhivaya_priroda:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.glazami_turista:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.unknown_planet:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.mir24:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.nostalgia:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.kanal8:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.kazakh:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.domatv:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.skif:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.svetloe_tv:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.tv2mogilev:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.rutv:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.tnt_music:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.laminor:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.europe_plus:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.zhara:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.muz_1_hd:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.live_music_channel_hd:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.belmustv:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.home4k:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.ultra4k_extreme:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.amedia1:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.amedia2:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.amedia_hit:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.amedia_premium:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.hollywood:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.hollywoodhd:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.filmuadrama:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.domkino:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.domkino_premium:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.ntv_pravo:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.ntv_serial:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.ntv_style:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.domashni:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.perec:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.telecafe:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.cap-fan:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.ryzhiy:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.karusel:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.o:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.es1:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.es2:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.extreme:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.discovery_channel:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.discovery_science:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.id:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.animal_planet:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.history:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.history2:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.arsenal:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.poexali:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.docu-box:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.bober:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.vremia:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.music_pervogo:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.tune_360_box:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+.funbox_uhd:hover p {
+  display: flex;
+  background: rgba(0,0,0,0.5);
+}
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
