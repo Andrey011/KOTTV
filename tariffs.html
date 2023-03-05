@@ -19,49 +19,49 @@
 </head>
 
 <body>
- <!-- Header -->
- <div id="header" class="header">
-  <header class="d-flex justify-content-center py-3">
-    <ul class="nav nav-pills">
-      <li class="nav-item"><a href="index.html" class="nav-link center"><img src="img/logo.svg" alt="KOTTV" width="90"
-            height="60"></a></li>
-      <li class="nav-item"><a href="index.html" class="nav-link" aria-current="page">Главная</a></li>
-      <li class="nav-item"><a href="tariffs.html" class="nav-link">Тарифы</a></li>
-      <li class="nav-item"><a href="channels.html" class="nav-link">Каналы</a></li>
-      <li class="nav-item"><a href="connect.html" class="nav-link">Как подключить</a></li>
-      <!-- HTML-код кнопки (триггер модального окна)-->
-      <li class="nav-item position-relative top-50 start-100 translate-middle" id="left80"><a href="#myModal"
-          class="btn btn-lg btn-primary" data-toggle="modal" class="nav-link">Войти</a></li>
-    </ul>
-  </header>
-</div>
+  <!-- Header -->
+  <div id="header" class="header">
+    <header class="d-flex justify-content-center py-3">
+      <ul class="nav nav-pills">
+        <li class="nav-item"><a href="index.html" class="nav-link center"><img src="img/logo.svg" alt="KOTTV" width="90"
+              height="60"></a></li>
+        <li class="nav-item"><a href="index.html" class="nav-link" aria-current="page">Главная</a></li>
+        <li class="nav-item"><a href="tariffs.html" class="nav-link">Тарифы</a></li>
+        <li class="nav-item"><a href="channels.html" class="nav-link">Каналы</a></li>
+        <li class="nav-item"><a href="connect.html" class="nav-link">Как подключить</a></li>
+        <!-- HTML-код кнопки (триггер модального окна)-->
+        <li class="nav-item position-relative top-50 start-100 translate-middle" id="left80"><a href="#myModal"
+            class="btn btn-lg btn-primary" data-toggle="modal" class="nav-link">Войти</a></li>
+      </ul>
+    </header>
+  </div>
 
-<!-- HTML-код модального окна -->
-<div id="myModal" class="modal" tabindex="-1">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <!-- Login Form -->
-      <form action="">
-        <div class="modal-header">
-          <h5 class="modal-title">Авторизация</h5>
-          <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          <div class="mb-3">
-            <label for="Username">Номер телефона<span class="text"></span></label>
-            <input type="tel" name="username" class="form-control" id="Username" placeholder="+375 (99) 999-99-99"
-              pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+  <!-- HTML-код модального окна -->
+  <div id="myModal" class="modal" tabindex="-1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <!-- Login Form -->
+        <form action="">
+          <div class="modal-header">
+            <h5 class="modal-title">Авторизация</h5>
+            <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
           </div>
-          <div class="mb-3">
+          <div class="modal-body">
+            <div class="mb-3">
+              <label for="Username">Номер телефона<span class="text"></span></label>
+              <input type="tel" name="username" class="form-control" id="Username" placeholder="+375 (99) 999-99-99"
+                pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+            </div>
+            <div class="mb-3">
+            </div>
           </div>
-        </div>
-        <div class="modal-footer pt-4">
-          <button type="button" class="btn btn-outline-primary mx-auto w-100">Получить код!</button>
-        </div>
-      </form>
+          <div class="modal-footer pt-4">
+            <button type="button" class="btn btn-outline-primary mx-auto w-100">Получить код!</button>
+          </div>
+        </form>
+      </div>
     </div>
   </div>
-</div>
   <main>
 
     <div id="subscriptions">
@@ -70,16 +70,13 @@
 
         <div>
           <div class="example_tariffs">
-            <div class="channel_slider1"
-              style="">
+            <div class="channel_slider1" style="">
               <div class="slide-channels" style=""></div>
             </div>
-            <div class="channel_slider2"
-              style="">
+            <div class="channel_slider2" style="">
               <div class="slide-channels" style=""></div>
             </div>
-            <div class="channel_slider3"
-              style="">
+            <div class="channel_slider3" style="">
               <div class="slide-channels" style=""></div>
             </div>
           </div>
@@ -105,210 +102,58 @@
               </div>
             </div>
 
-<div class="col-md-3 col-sm-6">
-        <div class="pricingTable green">
-          <div class="pricingTable-header">
-            <i class="fa fa-briefcase"></i>
-            <div class="price-value"> 10.90 <span class="month"> рублей в месяц</span> </div>
-          </div>
-          <h3 class="heading">Смарт</h3>
-          <div class="pricing-content">
-            <ul>
-              <li><b>120+</b> ТВ канала</li>
-              <li><b>30+</b> каналов в HD</li>
-              <li><b>2</b> канала в 4К</li>
-              <li style="color: #ffffff;">.</li>
-            </ul>
-          </div>
-          <div class="pricingTable-signup">
-            <a  href="" data-toggle="modal" data-target="#myModal30">Подключить!</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3 col-sm-6">
-        <div class="pricingTable blue">
-          <div class="pricingTable-header">
-            <i class="fa fa-diamond"></i>
-            <div class="price-value"> <strike>21.90</strike> 15.90<span class="month">рублей в месяц </span> </div>
-          </div>
-          <h3 class="heading">Ультра</h3>
-          <div class="pricing-content">
-            <ul>
-              <li><b>120+</b> ТВ канала</li>
-              <li><b>30+</b> каналов в HD</li>
-              <li><b>2</b> канала в 4К</li>
-              <li><b>PREMIER Amediateka</b></li>
-            </ul>
-          </div>
-          <div class="pricingTable-signup">
-            <a  href="" data-toggle="modal" data-target="#myModal30">Подключить!</a>
-          </div>
-        </div>
-      </div>
+            <div class="col-md-3 col-sm-6">
+              <div class="pricingTable green">
+                <div class="pricingTable-header">
+                  <i class="fa fa-briefcase"></i>
+                  <div class="price-value"> 10.90 <span class="month"> рублей в месяц</span> </div>
+                </div>
+                <h3 class="heading">Смарт</h3>
+                <div class="pricing-content">
+                  <ul>
+                    <li><b>120+</b> ТВ канала</li>
+                    <li><b>30+</b> каналов в HD</li>
+                    <li><b>2</b> канала в 4К</li>
+                    <li style="color: #ffffff;">.</li>
+                  </ul>
+                </div>
+                <div class="pricingTable-signup">
+                  <a href="" data-toggle="modal" data-target="#myModal30">Подключить!</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <div class="pricingTable blue">
+                <div class="pricingTable-header">
+                  <i class="fa fa-diamond"></i>
+                  <div class="price-value"> <strike>21.90</strike> 15.90<span class="month">рублей в месяц </span>
+                  </div>
+                </div>
+                <h3 class="heading">Ультра</h3>
+                <div class="pricing-content">
+                  <ul>
+                    <li><b>120+</b> ТВ канала</li>
+                    <li><b>30+</b> каналов в HD</li>
+                    <li><b>2</b> канала в 4К</li>
+                    <li><b>PREMIER Amediateka</b></li>
+                  </ul>
+                </div>
+                <div class="pricingTable-signup">
+                  <a href="" data-toggle="modal" data-target="#myModal30">Подключить!</a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
     <!--TEST -->
-<style>
-  a {
-    text-decoration: none;
-  }
 
-  .pricingTable {
-    text-align: center;
-    background: #fff;
-    margin: 0 -15px;
-    box-shadow: 0 0 10px #ababab;
-    padding-bottom: 40px;
-    border-radius: 10px;
-    color: #cad0de;
-    transform: scale(1);
-    transition: all .5s ease 0s
-  }
-
-  .pricingTable:hover {
-    transform: scale(1.05);
-    z-index: 1
-  }
-
-  .pricingTable .pricingTable-header {
-    padding: 40px 0;
-    background: #f5f6f9;
-    border-radius: 10px 10px 50% 50%;
-    transition: all .5s ease 0s
-  }
-
-  .pricingTable:hover .pricingTable-header {
-    background: #ff9624
-  }
-
-  .pricingTable .pricingTable-header i {
-    font-size: 50px;
-    color: #858c9a;
-    margin-bottom: 10px;
-    transition: all .5s ease 0s
-  }
-
-  .pricingTable .price-value {
-    font-size: 35px;
-    color: #ff9624;
-    transition: all .5s ease 0s
-  }
-
-  .pricingTable .month {
-    display: block;
-    font-size: 14px;
-    color: #cad0de
-  }
-
-  .pricingTable:hover .month,
-  .pricingTable:hover .price-value,
-  .pricingTable:hover .pricingTable-header i {
-    color: #fff
-  }
-
-  .pricingTable .heading {
-    font-size: 24px;
-    color: #ff9624;
-    margin-bottom: 20px;
-    text-transform: uppercase
-  }
-
-  .pricingTable .pricing-content ul {
-    list-style: none;
-    padding: 0;
-    margin-bottom: 30px
-  }
-
-  .pricingTable .pricing-content ul li {
-    line-height: 30px;
-    color: #a7a8aa
-  }
-
-  .pricingTable .pricingTable-signup a {
-    display: inline-block;
-    font-size: 15px;
-    color: #fff;
-    padding: 10px 35px;
-    border-radius: 20px;
-    background: #ffa442;
-    text-transform: uppercase;
-    transition: all .3s ease 0s
-  }
-
-  .pricingTable .pricingTable-signup a:hover {
-    box-shadow: 0 0 10px #ffa442
-  }
-
-  .pricingTable.blue .heading,
-  .pricingTable.blue .price-value {
-    color: #4b64ff
-  }
-
-  .pricingTable.blue .pricingTable-signup a,
-  .pricingTable.blue:hover .pricingTable-header {
-    background: #4b64ff
-  }
-
-  .pricingTable.blue .pricingTable-signup a:hover {
-    box-shadow: 0 0 10px #4b64ff
-  }
-
-  .pricingTable.red .heading,
-  .pricingTable.red .price-value {
-    color: #ff4b4b
-  }
-
-  .pricingTable.red .pricingTable-signup a,
-  .pricingTable.red:hover .pricingTable-header {
-    background: #ff4b4b
-  }
-
-  .pricingTable.red .pricingTable-signup a:hover {
-    box-shadow: 0 0 10px #ff4b4b
-  }
-
-  .pricingTable.green .heading,
-  .pricingTable.green .price-value {
-    color: #40c952
-  }
-
-  .pricingTable.green .pricingTable-signup a,
-  .pricingTable.green:hover .pricingTable-header {
-    background: #40c952
-  }
-
-  .pricingTable.green .pricingTable-signup a:hover {
-    box-shadow: 0 0 10px #40c952
-  }
-
-  .pricingTable.blue:hover .price-value,
-  .pricingTable.green:hover .price-value,
-  .pricingTable.red:hover .price-value {
-    color: #fff
-  }
-
-  .col-md-3 {
-    width: 33% !important;
-  }
-  @media (max-width: 426px) {
-    .col-md-3 {
-      width: 100% !important;
-    }
-  }
-
-  @media screen and (max-width:990px) {
-    .pricingTable {
-      margin: 0 0 20px
-    }
-  }
-</style>
 
 
     </div>
-  </div>
-</div>
+    </div>
+    </div>
     <!--TEST END-->
     <div class="subscriptions">
       <div class="content-wrapper">
@@ -332,7 +177,8 @@
                   <img src="img/playboy.png" alt="PlayBoy">
                 </div>
                 <div class="cinema__price" id="centered">
-                  <button type="button" class="btn btn-primary btn-lg px-4 me-md-2 cinema_button" style="">3.50 руб</button>
+                  <button type="button" class="btn btn-primary btn-lg px-4 me-md-2 cinema_button" style="">3.50
+                    руб</button>
                 </div>
               </div>
             </div>
@@ -342,79 +188,93 @@
     </div>
   </main>
   <div class="container">
-<div class=" row">
-  <div class="col-md-12">
-    <div class="modal fade" id="myModal30">
-      <div class="modal-dialog modal-lg">
-        <div class="modal-content">
-          <div class="modal-header" style="justify-content: center;">
-            <h1>Подключить KOTTV просто!</h1>
-          </div>
-          <div class="modal-body">
-            <div class="Choose_device bg-dark">
-              <div class="text-white step-1" align="center">ШАГ 1: Выберите устройство, на котором вы хотите смотреть телевидение</div>
-              <div class="grid-row">
-                <div class="grid-col grid-col-12-xs">
-                  <div class="device">
-                    <div class="device_img"><img src="img/devices-tv.png"></div>
-                    <div class="device_name" style="color: #05dbf3;">Телевизоры SMART TV</div>
+    <div class=" row">
+      <div class="col-md-12">
+        <div class="modal fade" id="myModal30">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <div class="modal-header" style="justify-content: center;">
+                <h1>Подключить KOTTV просто!</h1>
+              </div>
+              <div class="modal-body">
+                <div class="Choose_device bg-dark">
+                  <div class="text-white step-1" align="center">ШАГ 1: Выберите устройство, на котором вы хотите
+                    смотреть телевидение</div>
+                  <div class="grid-row">
+                    <div class="grid-col grid-col-12-xs">
+                      <div class="device">
+                        <div class="device_img"><img src="img/devices-tv.png"></div>
+                        <div class="device_name" style="color: #05dbf3;">Телевизоры SMART TV</div>
+                      </div>
+                    </div>
+                    <div class="grid-col grid-col-12-xs">
+                      <div class="device">
+                        <div class="device_img"><img src="img/devices-gadjets.png"></div>
+                        <div class="device_name" style="color: #05dbf3;">Смартфоны и планшеты</div>
+                      </div>
+                    </div>
+                    <div class="grid-col grid-col-12-xs">
+                      <div class="device">
+                        <div class="device_img"><img src="img/devices-stb.png"></div>
+                        <div class="device_name" style="color: #05dbf3;">ТВ-приставки</div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+                <div class="Find_app bg-dark">
+                  <div class="search_input_wrap">
+                    <div class="text-white text-center">ШАГ 2: В магазине приложений для вашего устройства, используя
+                      поиск, найдите и установите приложение KOTTV</div>
+                    <div class="search_input"><span>KOTTV</span></div>
                   </div>
                 </div>
-                <div class="grid-col grid-col-12-xs">
-                  <div class="device">
-                    <div class="device_img"><img src="img/devices-gadjets.png"></div>
-                    <div class="device_name" style="color: #05dbf3;">Смартфоны и планшеты</div>
+                <div class="Login_app bg-dark">
+                  <div class="search_input_wrap">
+                    <div class="text-center text-white">ШАГ 3: Запустите и авторизуйтесь в приложении с помощью номера
+                      мобильного телефона</div>
+                    <div class="search_input2"><span>+375 (**) ***-**-**</span></div>
                   </div>
                 </div>
-                <div class="grid-col grid-col-12-xs">
-                  <div class="device">
-                    <div class="device_img"><img src="img/devices-stb.png"></div>
-                    <div class="device_name" style="color: #05dbf3;">ТВ-приставки</div>
+                <div class="tutorial_video">
+                  <div class="tutorial_text text-center"><b>Посмотрите наши видеоинструкции</b></div>
+                  <div class="grid-row">
+                    <div class="grid-col-6 grid-col-6_sm grid-col-12_xs">
+                      <iframe width="100%" height="300px" src="https://www.youtube.com/embed/TGgkxoDT-84"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                    </div>
+
+                    <div class="grid-col-6 grid-col-6_sm grid-col-12_xs">
+                      <iframe width="100%" height="300px" src="https://www.youtube.com/embed/xWco2mi5CEE"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                    </div>
                   </div>
-              </div>
-              </div>
+                </div>
 
-              </div>
-            <div class="Find_app bg-dark">
-              <div class="search_input_wrap">
-                <div class="text-white text-center">ШАГ 2: В магазине приложений для вашего устройства, используя поиск, найдите и установите приложение KOTTV</div>
-                <div class="search_input"><span>KOTTV</span></div>
+                <div class="modal-footer">
+                  <div class="" style="background-color: wheat;">
+                    <div class="footer_title">Приятного просмотра</div>
+                    <div class="footer_description">Вам автоматически будет предоставлен <span>бесплатный <nobr>
+                          30-дневный</nobr> пробный доступ.</span> По завершении бесплатного периода вы легко сможете
+                      продлить подписку.</div>
+                    <div class="footer_note">Одна подписка даёт доступ к услуге на 5-ти устройствах (телевизоры,
+                      планшеты, смартфоны, тв-приставки).</div>
+                    <div class="footer_note2"><b>Услугой могут воспользоваться граждане Республики Беларусь, а также
+                        иностранные граждане проживающие на территории Республики Беларусь. Услуга доступна только на
+                        территории Республики Беларусь.</b></div>
+                  </div>
+                  <!--            <input class="btn btn-primary" data-dismiss="modal" value="Close">-->
+                </div>
               </div>
             </div>
-            <div class="Login_app bg-dark">
-              <div class="search_input_wrap">
-                <div class="text-center text-white">ШАГ 3: Запустите и авторизуйтесь в приложении с помощью номера мобильного телефона</div>
-                <div class="search_input2"><span>+375 (**) ***-**-**</span></div>
-              </div>
-            </div>
-            <div class="tutorial_video">
-              <div class="tutorial_text text-center"><b>Посмотрите наши видеоинструкции</b></div>
-              <div class="grid-row">
-              <div class="grid-col-6 grid-col-6_sm grid-col-12_xs">
-		        <iframe width="100%" height="300px" src="https://www.youtube.com/embed/TGgkxoDT-84" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-              </div>
-
-              <div class="grid-col-6 grid-col-6_sm grid-col-12_xs">
-                <iframe width="100%" height="300px" src="https://www.youtube.com/embed/xWco2mi5CEE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-              </div>
-          </div>
-            </div>
-
-          <div class="modal-footer">
-            <div class="" style="background-color: wheat;">
-              <div class="footer_title">Приятного просмотра</div>
-              <div class="footer_description">Вам автоматически будет предоставлен <span>бесплатный <nobr>30-дневный</nobr> пробный доступ.</span> По завершении бесплатного периода вы легко сможете продлить подписку.</div>
-              <div class="footer_note">Одна подписка даёт доступ к услуге на 5-ти устройствах (телевизоры, планшеты, смартфоны, тв-приставки).</div>
-              <div class="footer_note2"><b>Услугой могут воспользоваться граждане Республики Беларусь, а также иностранные граждане проживающие на территории Республики Беларусь. Услуга доступна только  на территории Республики Беларусь.</b></div>
-            </div>
-<!--            <input class="btn btn-primary" data-dismiss="modal" value="Close">-->
           </div>
         </div>
       </div>
     </div>
-  </div>
-</div>
-</div>
 </body>
 <script src="libs/jquery/jquery-3.3.1.min.js" type="text/javascript"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
