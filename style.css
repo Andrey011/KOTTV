@@ -1452,6 +1452,7 @@ h4,
   margin-bottom: 30px;
 }
 .custom-block .section-title {
+  font-family: "GloberSemiBoldFree", sans-serif;
   font-size: 18px;
   font-weight: 700;
 }
@@ -3027,7 +3028,7 @@ body {
   height: 100%;
   left: 0;
   top: 0;
-  opacity: 0;
+  opacity: 0.3;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
   -webkit-transition: 0.7s;
   transition: 0.7s;
