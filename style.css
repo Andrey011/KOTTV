@@ -3745,3 +3745,49 @@ max-width: 33%;
 a {
   text-decoration: none !important;
 }
+.las {
+  display: inline-block;
+  height: 80px;
+  width: 80px;
+  line-height: 80px;
+  background-color: #f3f3f3;
+  font-size: 45px;
+  border-radius: 50px;
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+  text-align: center;
+}
+@media (max-width: 767px) {
+  .las {
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    font-size: 25px;
+  }
+}
+.feature {
+  margin-bottom: 30px;
+  position: relative;
+  z-index: 0;
+  text-align: left;
+  padding: 20px;
+  background-color: #fff0;
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+  border-radius: 5px;
+}
+.feature:hover {
+  -webkit-transform: translateY(-10px);
+  transform: translateY(-10px);
+  background-color: #ffed00;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  transition: .5s;
+}
+.feature::before {
+  width: 0%;
+
+}
+.feature:hover::before {
+  width: 100%;
+}
