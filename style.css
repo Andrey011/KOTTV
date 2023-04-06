@@ -3779,7 +3779,7 @@ a {
 .feature:hover {
   -webkit-transform: translateY(-10px);
   transform: translateY(-10px);
-  background-color: #ffed00;
+  background: linear-gradient(to right, #ffed006b, #f7d700, #ffed00, #ffed006b);
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   transition: .5s;
@@ -3790,4 +3790,10 @@ a {
 }
 .feature:hover::before {
   width: 100%;
+}
+.container-xl {
+  background: linear-gradient(#f5deb39e, #f9c49f, #ffb97a, #f9c49f, #f5deb39e);
+}
+.footer_gradient {
+  background: linear-gradient(#f5deb39e, #f9c49f, #ffb97a, #f9c49f, #f5deb39e);
 }
