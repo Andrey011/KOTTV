@@ -415,63 +415,37 @@
       </div>
     </div>
   </div>
-  <section class="dark-wrapper container">
 
-    <div class="wrapper clearfix row">
-
-      <div class="one_third col-2">
-
-        <h5>По вопросам сотрудничества свяжитесь с нами</h5>
-        <hr>
-        <p class="margin-bottom-10"><i class="fa fa-map-marker fa-fixed-width"></i> Брест, ул. Ковельская 87</p>
-        <!-- <p class="margin-bottom-10"><i class="fa fa-phone-square fa-fixed-width"></i> +375 29 256-92-57</p> -->
-        <p class="margin-bottom-10 "><i class="fa fa-laptop fa-fixed-width"></i> <a class="text-decoration-none"
-            href="mailto:info@kottv.by">info@kottv.by</a></p>
-
-      </div>
-
-      <div class="two_thirds col-6" style="float: left;">
-        <div id="map" style="display: none;">
-          <script type="text/javascript" charset="utf-8" async
-            src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A582814321a8f863cd155112691714d8cdf33ff2d74fe7cac3306cac7ca51f3f9&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
-        </div>
-      </div>
-
-      <div class="two_thirds col-6" style="position: relative;">
-        <button id="show-map-button" class="btn btn-lg btn-primary" style="position: absolute; top: 50%; transform: translateY(-50%);">Мы на карте!</button>
-      </div>
-
-      <script>
-        var showMapButton = document.getElementById('show-map-button');
-        var map = document.getElementById('map');
-
-        showMapButton.addEventListener('click', function() {
-          map.style.display = 'block';
-          showMapButton.style.display = 'none';
-        });
-      </script>
-
-    </div>
-
-  </section>
   <hr>
   <!-- Footer -->
   <div class="container">
     <footer class="py-5">
-      <div class="row">
-        <div class="col-2 col-n1">
+
+  <div class="container">
+<!--    <div class="contacts text-center"><p>Наши контакты!</p></div>-->
+    <div class="row">
+      <div class="col-md-3">
+        <p>Контактная информация:</p>
+        <ul>
+          <li>Телефон: +7 (123) 456-78-90</li>
+          <li>Email: info@example.com</li>
+          <li>Адрес: ул. Примерная, д. 1, офис 101</li>
+        </ul>
+      </div>
+      <div class="col-2 col-n1">
           <ul class="nav flex-column">
+            <li class="nav-item mb-2"><p>Навигация по сайту</p></li>
             <li class="nav-item mb-2"><a href="index.html" class="nav-link p-0 text-muted">Главная</a></li>
             <li class="nav-item mb-2"><a href="tariffs.html" class="nav-link p-0 text-muted">Тарифы</a></li>
             <li class="nav-item mb-2"><a href="channels.html" class="nav-link p-0 text-muted">Каналы</a></li>
             <li class="nav-item mb-2"><a href="connect.html" class="nav-link p-0 text-muted">Как подключить</a></li>
+            <li class="nav-item mb-2"><a href="partners.html" class="nav-link p-0 text-muted">Партнеры</a></li>
             <li class="nav-item mb-2"><a href="#header" class="nav-link p-0 text-muted">Наверх</a></li>
           </ul>
         </div>
-
-        <div class="col-2 col-n2">
+      <div class="col-2 col-n2">
           <ul class="nav flex-column">
-            <li class="nav-item mb-2"><a href="partners.html" class="nav-link p-0 text-muted">Партнеры</a></li>
+            <li class="nav-item mb-2"><p>Условия использования и оплаты</p></li>
             <li class="nav-item mb-2"><a href="public_agreement.pdf" class="nav-link p-0 text-muted">Публичное
                 соглашение</a></li>
             <li class="nav-item mb-2"><a href="privacy_policy_kottv_2.pdf" class="nav-link p-0 text-muted">Политика
@@ -483,27 +457,10 @@
             </li>
           </ul>
         </div>
-
-        <div class="col-2 col-nn">
-          <ul class="nav flex-column">
-            <li class="nav-item mb-2"><a href="index.html" class="nav-link p-0 text-muted">Главная</a></li>
-            <li class="nav-item mb-2"><a href="tariffs.html" class="nav-link p-0 text-muted">Тарифы</a></li>
-            <li class="nav-item mb-2"><a href="channels.html" class="nav-link p-0 text-muted">Каналы</a></li>
-            <li class="nav-item mb-2"><a href="connect.html" class="nav-link p-0 text-muted">Как подключить</a></li>
-            <li class="nav-item mb-2"><a href="#header" class="nav-link p-0 text-muted">Наверх</a></li>
-          </ul>
-        </div>
-
-        <div class="col-4 offset-1 col-n3">
+      <div class="col-md-3">
+        <p>Мы в социальных сетях:</p>
+        <ul class="social-icons">
           <form>
-            <h5>Подпишитесь на рассылку новостей!</h5>
-            <p>Для этого достаточно ввести ваш адрес электронной почты ниже:</p>
-            <div class="d-flex w-100 gap-2">
-              <label for="newsletter1" class="visually-hidden">Email адрес</label>
-              <input id="newsletter1" type="text" class="form-control" placeholder="Email адрес">
-              <button class="btn btn-primary" type="button">Подписаться</button>
-            </div>
-
             <div class="container">
               <div class="row row-cols-auto">
                 <!--href="https://www.facebook.com/kottv.by"target="_blank" http://www.w3.org/2000/svg-->
@@ -614,7 +571,12 @@
               </div>
             </div>
           </form>
-        </div>
+
+        </ul>
+      </div>
+    </div>
+  </div>
+
         <div class="sponsors">
           <div class="footer__payment-info">
             <img src="img/payments/visa.png" class="payment-type">
