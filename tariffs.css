@@ -986,3 +986,23 @@ width: 100% !important;
   margin: 0 0 20px
   }
   }
+
+
+  body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "GloberSemiBoldFree", sans-serif !important;
+  src: url("../fonts/globersemiboldfree.eot"); /* IE 9 Compatibility Mode */
+  src: url("../fonts/globersemiboldfree.eot?#iefix") format("embedded-opentype"),
+    /* IE < 9 */ url("../fonts/globersemiboldfree.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/globersemiboldfree.woff")
+      format("woff"),
+    /* Firefox >= 3.6, any other modern browser */
+      url("../fonts/globersemiboldfree.ttf") format("truetype"),
+    /* Safari, Android, iOS */
+      url("../fonts/globersemiboldfree.svg#globersemiboldfree") format("svg"); /* Chrome < 4, Legacy iOS */
+}
