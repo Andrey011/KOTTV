@@ -1694,6 +1694,7 @@ width: 33% !important;
 .col-md-3 {
 width: 100% !important;
 }
+}
 @media (min-width: 768px){
   .col-md-3{
 max-width: 33%;
