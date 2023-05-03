@@ -974,7 +974,21 @@ color: #fff
 }
 
 .col-md-3 {
-width: 33% !important;
+width: 50% !important;
+}
+@media (max-width: 991.9px) {
+  .col-md-3 {
+   width: 100% !important;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 767.9px) {
+  .col-md-3 {
+   width: 100%!important;
+   margin-bottom: 30px;
+   text-align: center;
+  }
 }
 @media (max-width: 426px) {
 .col-md-3 {
@@ -1005,4 +1019,34 @@ h6 {
       url("../fonts/globersemiboldfree.ttf") format("truetype"),
     /* Safari, Android, iOS */
       url("../fonts/globersemiboldfree.svg#globersemiboldfree") format("svg"); /* Chrome < 4, Legacy iOS */
+}
+@media (max-width: 767.9px) {
+  .col-n1 {
+    width: 40% !important;
+  }
+  .col-n2 {
+    width: 60% !important;
+  }
+  .col-n3 {
+    width: 150% !important;
+    margin-left: 0px !important;
+  }
+}
+@media (max-width: 991.9px) {
+  .col-n2 {
+    width: 60% !important;
+    flex: 0 0 auto;
+  }
+  .col-n1 {
+    width: 40% !important;
+    flex: 0 0 auto;
+  }
+}
+@media (max-width: 426.9px) {
+  .col-n1 {
+    width: 100% !important;
+  }
+  .col-n2 {
+    width: 100% !important;
+  }
 }

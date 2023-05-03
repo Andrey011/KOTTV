@@ -3453,11 +3453,11 @@ footer .text-muted:hover {
 }
 @media (max-width: 991.9px) {
   .col-n2 {
-    width: 30% !important;
+    width: 60% !important;
     flex: 0 0 auto;
   }
   .col-n1 {
-    width: 30% !important;
+    width: 40% !important;
     flex: 0 0 auto;
   }
 }
@@ -3612,7 +3612,9 @@ a {
 }
 @media (max-width: 991.9px) {
   .col-md-3 {
-    width: 50% !important;
+    width: 100% !important;
+    text-align: center;
+    margin-bottom: 30px;
   }
 }
 @media (max-width: 767.9px) {
@@ -3835,18 +3837,17 @@ footer ul li {
 .navbar-light .navbar-nav .nav-link {
   color: #0d6efd !important;
 }
-
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767.9px) {
 
   #header-button {
-    margin-left: 220px;
-    margin-top: -65px;
+    margin-left: 220px!important;
+    margin-top: -65px!important;
   }
   #header-icon {
     margin-right: 120px;
   }
 
-  .navbar-toggler {
+  .navbar-tonavbar-toggler {
     background-color: #5259bf !important;
     border: 0px 0px 0px 0px !important;
     margin-top:20px;
@@ -3868,14 +3869,32 @@ footer ul li {
 
 
 }
+@media only screen and (max-width: 425px) {
+  #header-button {
+    margin-left: 90%!important;
+    margin-top: -65px!important;
+  }
+  #header-icon {
+    margin-right: 120px;
+  }
+
+  .navbar-tonavbar-toggler {
+    background-color: #5259bf !important;
+    border: 0px 0px 0px 0px !important;
+    margin-top:20px;
+  }
+}
 /* Скрыть меню для больших экранов */
+
 @media (min-width: 992px) {
   .navbar-collapse {
     display: none;
   }
 
   #header-button {
-    margin-left: 320px;
+
+    margin-left: 220px;
+    margin-top: -65px;
   }
 
   .navbar-toggler {
@@ -3934,4 +3953,19 @@ footer ul li {
 
 .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon span:nth-child(2) {
   opacity: 0;
+}
+@media only screen and (max-width: 992px) {
+  #header-button {
+    margin-left: 220px;
+    margin-top: -65px;
+  }
+  #header-icon {
+    margin-right: 120px;
+  }
+
+  .navbar-tonavbar-toggler {
+    background-color: #5259bf !important;
+    border: 0px 0px 0px 0px !important;
+    margin-top:20px;
+  }
 }

@@ -220,14 +220,14 @@ footer a:hover {
 }
 @media (max-width: 767.9px) {
   .col-n1 {
-    width: 40%!important;
+    width: 40% !important;
   }
   .col-n2 {
-    width: 60%!important;
+    width: 60% !important;
   }
   .col-n3 {
-    width: 100%!important;
-    margin-left: 0px!important;
+    width: 150% !important;
+    margin-left: 0px !important;
   }
 }
 p{
@@ -1638,11 +1638,11 @@ footer ul li {
 }
 @media (max-width: 991.9px) {
   .col-n2 {
-    width: 30%!important;
+    width: 60% !important;
     flex: 0 0 auto;
   }
   .col-n1 {
-    width: 30%!important;
+    width: 40% !important;
     flex: 0 0 auto;
   }
 }
@@ -1676,11 +1676,13 @@ footer ul li {
   }
 }
 .col-md-3 {
-width: 33% !important;
+width: 50% !important;
 }
 @media (max-width: 991.9px) {
   .col-md-3 {
-   width: 38%!important;
+   width: 100% !important;
+    text-align: center;
+    margin-bottom: 30px;
   }
 }
 @media (max-width: 767.9px) {
