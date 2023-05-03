@@ -1624,36 +1624,6 @@ footer ul li {
   font-size: 16px;
   margin-bottom: 5px;
 }
-@media (max-width: 767.9px) {
-  .col-n1 {
-    width: 40%!important;
-  }
-  .col-n2 {
-    width: 60%!important;
-  }
-  .col-n3 {
-    width: 100%!important;
-    margin-left: 0px!important;
-  }
-}
-@media (max-width: 991.9px) {
-  .col-n2 {
-    width: 60% !important;
-    flex: 0 0 auto;
-  }
-  .col-n1 {
-    width: 40% !important;
-    flex: 0 0 auto;
-  }
-}
-@media (max-width: 426.9px) {
-  .col-n1 {
-    width: 100%!important;
-  }
-  .col-n2 {
-    width: 100%!important;
-  }
-}
 
 .contacts p {
   display: block;
@@ -1700,5 +1670,97 @@ width: 100% !important;
 @media (min-width: 768px){
   .col-md-3{
 max-width: 33%;
+  }
+}
+@media (max-width: 767.9px) {
+  .col-n1 {
+    width: 40% !important;
+  }
+  .col-n2 {
+    width: 60% !important;
+  }
+  .col-n3 {
+    width: 150% !important;
+    margin-left: 0px !important;
+  }
+}
+@media (max-width: 991.9px) {
+  .col-n2 {
+    width: 60% !important;
+    flex: 0 0 auto;
+  }
+  .col-n1 {
+    width: 40% !important;
+    flex: 0 0 auto;
+  }
+}
+@media (max-width: 426.9px) {
+  .col-n1 {
+    width: 100% !important;
+  }
+  .col-n2 {
+    width: 100% !important;
+  }
+}
+@media only screen and (max-width: 767.9px) {
+
+  #header-button {
+    margin-left: 220px!important;
+    margin-top: -65px!important;
+  }
+  #header-icon {
+    margin-right: 120px;
+  }
+
+  .navbar-tonavbar-toggler {
+    background-color: #5259bf !important;
+    border: 0px 0px 0px 0px !important;
+    margin-top:20px;
+  }
+  .navbar-toggler:focus {
+    outline: none;
+  }
+
+  .col-md-3 .col-sm-6 {
+    width: 40% !important;
+  }
+  body {
+    overflow-x: hidden;
+  }
+
+  .animated-bg {
+    border-radius: 0px !important;
+  }
+
+
+}
+@media only screen and (max-width: 425px) {
+  #header-button {
+    margin-left: 90%!important;
+    margin-top: -65px!important;
+  }
+  #header-icon {
+    margin-right: 120px;
+  }
+
+  .navbar-tonavbar-toggler {
+    background-color: #5259bf !important;
+    border: 0px 0px 0px 0px !important;
+    margin-top:20px;
+  }
+}
+@media only screen and (max-width: 992px) {
+  #header-button {
+    margin-left: 220px;
+    margin-top: -65px;
+  }
+  #header-icon {
+    margin-right: 120px;
+  }
+
+  .navbar-tonavbar-toggler {
+    background-color: #5259bf !important;
+    border: 0px 0px 0px 0px !important;
+    margin-top:20px;
   }
 }
