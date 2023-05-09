@@ -3830,7 +3830,6 @@ footer ul li {
   left: 0 !important;
   top: 0 !important;
   width: 100% !important;
-  height: 428px !important;
   overflow: hidden;
 }
 
@@ -3912,9 +3911,16 @@ footer ul li {
 
 }
 
+.navbar-brand {
+  position: sticky !important;
+  top: -10px !important;
+  left: -250px !important;
+}
 
-/* Показывать меню при нажатии на бургер-меню */
 .navbar-toggler {
+  position:relative;
+  top: -5px;
+  right: -50px;
   border: none;
   outline: none;
   padding: 0;
@@ -3955,6 +3961,21 @@ footer ul li {
   opacity: 0;
 }
 @media only screen and (max-width: 992px) {
+  .navbar-brand {
+    position: sticky !important;
+    top: -10px !important;
+    left: -250px !important;
+  }
+
+  .navbar-toggler {
+    position:relative;
+    top: -5px !important;
+    right: -50px !important;
+    border: none;
+    outline: none;
+    padding: 0;
+    background-color: transparent;
+  }
   #header-button {
     margin-left: 220px;
     margin-top: -65px;

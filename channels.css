@@ -1764,3 +1764,7 @@ max-width: 33%;
     margin-top:20px;
   }
 }
+
+.navbar-light .navbar-nav .nav-link {
+  color:#0D6EFD !important;
+}
